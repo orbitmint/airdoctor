@@ -7,7 +7,17 @@
     "agentcore:created-by": "agentcore-cli",
     "agentcore:project-name": "airdoctor"
   },
-  "runtimes": [],
+  "runtimes": [
+    {
+      "name": "airdoctor",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/airdoctor/",
+      "runtimeVersion": "PYTHON_3_14",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    }
+  ],
   "memories": [],
   "knowledgeBases": [],
   "credentials": [],
@@ -17,12 +27,7 @@
   "policyEngines": [],
   "configBundles": [],
   "abTests": [],
-  "harnesses": [
-    {
-      "name": "MyHarness",
-      "path": "app/MyHarness"
-    }
-  ],
+  "harnesses": [],
   "datasets": [],
   "capacityProviders": [],
   "payments": []

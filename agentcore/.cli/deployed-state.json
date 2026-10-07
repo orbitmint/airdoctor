@@ -1,3 +1,17 @@
 {
-  "targets": {}
+  "targets": {
+    "default": {
+      "resources": {
+        "runtimes": {
+          "airdoctor": {
+            "runtimeId": "airdoctor_airdoctor-tbT7w79fX3",
+            "runtimeArn": "arn:aws:bedrock-agentcore:eu-west-1:950796416387:runtime/airdoctor_airdoctor-tbT7w79fX3",
+            "roleArn": "arn:aws:iam::950796416387:role/AgentCore-airdoctor-defau-ApplicationAgentAirdoctor-28rSE8LmoHWa"
+          }
+        },
+        "stackName": "AgentCore-airdoctor-default",
+        "deployHash": "157ca6e166e61aa1"
+      }
+    }
+  }
 }
