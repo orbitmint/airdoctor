@@ -1,0 +1,29 @@
+[project]
+name = "airdoctor"
+version = "0.1.0"
+description = "Autonomous Airflow Self-Healing SRE Agent"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=0.2.14",
+    "langchain-core>=0.2.39",
+    "boto3>=1.35.0",
+    "mcp>=0.1.0",
+    "fastmcp>=0.1.0",
+    "opentelemetry-instrumentation-langchain>=0.33b0"
+]
+
+[project.optional-dependencies]
+bedrock = [
+    "langchain-aws>=0.2.0",
+]
+vertexai = [
+    "langchain-google-vertexai>=2.0.0",
+]
+all = [
+    "langchain-aws>=0.2.0",
+    "langchain-google-vertexai>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
