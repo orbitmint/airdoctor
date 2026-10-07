@@ -1,0 +1,5 @@
+*** Reading remote log from S3: s3://airdoctor-data-platform-logs-prod/airflow-logs/cluster=gke-prod-us-central1/dag_id=customer_lifetime_value_calc/task_id=run_complex_clv_window/attempt=1.log
+[2026-09-29T15:00:00.000+0000] {taskinstance.py:1165} INFO - Starting customer_lifetime_value_calc.run_complex_clv_window
+[2026-09-29T15:00:04.000+0000] {postgres_operator.py:44} INFO - Executing query: WITH monthly_cohorts AS (SELECT user_id, date_trunc('month', order_ts) FROM events) SELECT * FROM monthly_cohorts;
+[2026-09-29T16:00:04.000+0000] {postgres_operator.py:64} ERROR - psycopg2.errors.QueryCanceled: canceling statement due to statement timeout (3600000ms exceeded)
+[2026-09-29T16:00:05.000+0000] {taskinstance.py:1898} ERROR - Task timed out after 3600 seconds. Database aborted query.

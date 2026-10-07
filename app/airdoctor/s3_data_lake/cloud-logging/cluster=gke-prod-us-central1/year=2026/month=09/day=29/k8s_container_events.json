@@ -1,0 +1,602 @@
+[
+  {
+    "insertId": "gke-audit-2026-09-29-0000",
+    "timestamp": "2026-09-29T10:00:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1200MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0001",
+    "timestamp": "2026-09-29T10:01:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1222MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0002",
+    "timestamp": "2026-09-29T10:02:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1244MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0003",
+    "timestamp": "2026-09-29T10:03:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1266MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0004",
+    "timestamp": "2026-09-29T10:04:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1288MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0005",
+    "timestamp": "2026-09-29T10:05:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1310MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0006",
+    "timestamp": "2026-09-29T10:06:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1332MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0007",
+    "timestamp": "2026-09-29T10:07:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1354MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0008",
+    "timestamp": "2026-09-29T10:08:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1376MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0009",
+    "timestamp": "2026-09-29T10:09:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1398MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0010",
+    "timestamp": "2026-09-29T10:10:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1420MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0011",
+    "timestamp": "2026-09-29T10:11:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1442MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0012",
+    "timestamp": "2026-09-29T10:12:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1464MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0013",
+    "timestamp": "2026-09-29T10:13:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1486MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0014",
+    "timestamp": "2026-09-29T10:14:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1508MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0015",
+    "timestamp": "2026-09-29T10:15:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1530MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0016",
+    "timestamp": "2026-09-29T10:16:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1552MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0017",
+    "timestamp": "2026-09-29T10:17:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1574MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0018",
+    "timestamp": "2026-09-29T10:18:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1596MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0019",
+    "timestamp": "2026-09-29T10:19:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1618MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0020",
+    "timestamp": "2026-09-29T10:20:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1640MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0021",
+    "timestamp": "2026-09-29T10:21:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1662MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0022",
+    "timestamp": "2026-09-29T10:22:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1684MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0023",
+    "timestamp": "2026-09-29T10:23:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1706MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0024",
+    "timestamp": "2026-09-29T10:24:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1728MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0025",
+    "timestamp": "2026-09-29T10:25:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1750MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0026",
+    "timestamp": "2026-09-29T10:26:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1772MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0027",
+    "timestamp": "2026-09-29T10:27:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1794MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0028",
+    "timestamp": "2026-09-29T10:28:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1816MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0029",
+    "timestamp": "2026-09-29T10:29:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1838MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0030",
+    "timestamp": "2026-09-29T10:30:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1860MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0031",
+    "timestamp": "2026-09-29T10:31:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1882MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0032",
+    "timestamp": "2026-09-29T10:32:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1904MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0033",
+    "timestamp": "2026-09-29T10:33:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1926MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0034",
+    "timestamp": "2026-09-29T10:34:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1948MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0035",
+    "timestamp": "2026-09-29T10:35:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1970MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0036",
+    "timestamp": "2026-09-29T10:36:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=1992MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0037",
+    "timestamp": "2026-09-29T10:37:00Z",
+    "severity": "INFO",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "GKE kubelet cgroup memory monitor: worker pod rss=2014MB (limit=2048MB)",
+      "exit_code": 0
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0038",
+    "timestamp": "2026-09-29T10:38:00Z",
+    "severity": "CRITICAL",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "Memory cgroup out of memory: Killed process 4112 (python3) total-vm:4194304kB, anon-rss:2097152kB, file-rss:0kB",
+      "exit_code": 137
+    }
+  },
+  {
+    "insertId": "gke-audit-2026-09-29-0039",
+    "timestamp": "2026-09-29T10:39:00Z",
+    "severity": "CRITICAL",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1"
+      }
+    },
+    "jsonPayload": {
+      "message": "Memory cgroup out of memory: Killed process 4112 (python3) total-vm:4194304kB, anon-rss:2097152kB, file-rss:0kB",
+      "exit_code": 137
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "scenario_id": "cross_cluster_upstream_partition_lag",
+  "cluster": "gke-prod-us-central1",
+  "dag_id": "global_sales_reporting",
+  "task_id": "wait_for_eu_raw_events",
+  "run_id": "scheduled__2026-09-29T12:00:00",
+  "upstream_cluster": "gke-analytics-europe-west1",
+  "upstream_dag_id": "eu_raw_ingestion_hourly",
+  "root_cause": "Downstream sensor in US cluster timed out because upstream EU ingestion DAG failed with GCS token expiration.",
+  "recommended_action": "TRIGGER_UPSTREAM_RERUN_AND_RESET_SENSOR",
+  "is_transient": false
+}

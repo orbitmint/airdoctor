@@ -1,0 +1,1 @@
+[2026-09-28T09:00:00.000+0000] {spark_submit.py:104} INFO - Spark on GKE customer_360 finished successfully. Reconciled 48,209,102 identities.

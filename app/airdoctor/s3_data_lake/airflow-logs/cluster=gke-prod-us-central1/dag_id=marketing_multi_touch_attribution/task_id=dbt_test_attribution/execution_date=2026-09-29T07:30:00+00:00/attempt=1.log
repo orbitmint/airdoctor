@@ -1,0 +1,6 @@
+[2026-09-29T07:30:00.000+0000] {taskinstance.py:1165} INFO - Starting task: marketing_multi_touch_attribution.dbt_test_attribution
+[2026-09-29T07:30:04.000+0000] {dbt_operator.py:112} INFO - Running: dbt test --select fct_omnichannel_attribution
+[2026-09-29T07:30:15.000+0000] {dbt_operator.py:130} INFO - 1/4 PASS not_null_fct_omnichannel_attribution_touchpoint_id ..... [PASS]
+[2026-09-29T07:30:18.000+0000] {dbt_operator.py:130} ERROR - 2/4 FAIL unique_fct_omnichannel_attribution_user_touchpoint_pk ... [FAIL 42 duplicate keys found in 2.82s]
+  Failure query: SELECT user_touchpoint_pk, count(*) as count FROM marts.fct_omnichannel_attribution GROUP BY 1 HAVING count > 1;
+[2026-09-29T07:30:20.000+0000] {taskinstance.py:1898} ERROR - dbt test failed with 1 failure. Data Quality constraint violated.

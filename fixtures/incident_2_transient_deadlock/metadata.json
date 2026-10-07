@@ -1,0 +1,11 @@
+{
+  "scenario_id": "transient_postgres_deadlock",
+  "cluster": "gke-prod-us-central1",
+  "dag_id": "financial_ledger_sync",
+  "task_id": "sync_merchant_settlements",
+  "run_id": "manual__2026-09-29T10:30:00",
+  "root_cause": "Transient PostgreSQL concurrency deadlock (error 40P01) between payout batch and ledger sync.",
+  "recommended_action": "AUTO_RETRY_WITH_JITTER",
+  "backoff_seconds": 15,
+  "is_transient": true
+}

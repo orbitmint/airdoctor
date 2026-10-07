@@ -1,0 +1,3 @@
+[2026-09-27T10:30:00.000+0000] {taskinstance.py:1165} INFO - Starting financial_ledger_sync.sync_merchant_settlements
+[2026-09-27T10:30:04.000+0000] {custom_sql_operator.py:105} INFO - Processed 350 merchant settlement batches in 1m24s without lock contention.
+[2026-09-27T10:31:28.000+0000] {taskinstance.py:1406} INFO - TaskInstance SUCCESS. Total volume settled: $14,892,104.22 USD.

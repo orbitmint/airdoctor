@@ -1,0 +1,31 @@
+[2026-09-29T08:00:00.000+0000] {taskinstance.py:1165} INFO - Starting task: stripe_billing_reconciliation.fetch_invoices
+[2026-09-29T08:00:02.000+0000] {stripe_hook.py:54} INFO - Paginating /v1/invoices?limit=100 (starting_after=in_1N41a)
+[2026-09-29T08:00:02.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 1/60 (100 objects)
+[2026-09-29T08:00:04.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 2/60 (100 objects)
+[2026-09-29T08:00:06.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 3/60 (100 objects)
+[2026-09-29T08:00:08.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 4/60 (100 objects)
+[2026-09-29T08:00:10.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 5/60 (100 objects)
+[2026-09-29T08:00:12.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 6/60 (100 objects)
+[2026-09-29T08:00:14.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 7/60 (100 objects)
+[2026-09-29T08:00:16.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 8/60 (100 objects)
+[2026-09-29T08:00:18.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 9/60 (100 objects)
+[2026-09-29T08:00:20.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 10/60 (100 objects)
+[2026-09-29T08:00:22.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 11/60 (100 objects)
+[2026-09-29T08:00:24.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 12/60 (100 objects)
+[2026-09-29T08:00:26.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 13/60 (100 objects)
+[2026-09-29T08:00:28.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 14/60 (100 objects)
+[2026-09-29T08:00:30.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 15/60 (100 objects)
+[2026-09-29T08:00:32.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 16/60 (100 objects)
+[2026-09-29T08:00:34.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 17/60 (100 objects)
+[2026-09-29T08:00:36.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 18/60 (100 objects)
+[2026-09-29T08:00:38.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 19/60 (100 objects)
+[2026-09-29T08:00:40.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 20/60 (100 objects)
+[2026-09-29T08:00:42.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 21/60 (100 objects)
+[2026-09-29T08:00:44.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 22/60 (100 objects)
+[2026-09-29T08:00:46.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 23/60 (100 objects)
+[2026-09-29T08:00:48.000+0000] {stripe_hook.py:65} DEBUG - Ingested invoice batch 24/60 (100 objects)
+[2026-09-29T08:00:52.000+0000] {stripe_hook.py:82} ERROR - StripeAPIError: HTTP 429 Too Many Requests (Rate limit exceeded for endpoint /v1/invoices).
+  Headers: {'Retry-After': '30', 'X-RateLimit-Limit': '100', 'X-RateLimit-Remaining': '0'}
+[2026-09-29T08:00:52.000+0000] {taskinstance.py:1898} ERROR - Task failed with exception
+stripe.error.RateLimitError: Rate limit exceeded. Try again in 30 seconds.
+[2026-09-29T08:00:53.000+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. Attempts remaining: 2

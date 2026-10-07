@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "dbt_version": "1.8.2",
+    "project_name": "analytics_dw"
+  },
+  "nodes": {
+    "model.analytics.fct_customer_churn_daily": {
+      "name": "fct_customer_churn_daily",
+      "resource_type": "model",
+      "depends_on": {
+        "nodes": [
+          "model.analytics.stg_customers",
+          "model.analytics.stg_subscriptions"
+        ]
+      },
+      "raw_code": "-- models/marts/finance/fct_customer_churn_daily.sql\n{{ config(\n    materialized='table',\n    partition_by={'field': 'churn_date', 'data_type': 'date'},\n    cluster_by=['customer_id']\n) }}\n\nwith customers as (\n    select * from {{ ref('stg_customers') }}\n),\n\nsubscriptions as (\n    select * from {{ ref('stg_subscriptions') }}\n)\n\nselect\n    s.subscription_id,\n    c.customer_id,\n    c.customer_account_id,  -- BREAKING CHANGE: upstream renamed to account_id\n    s.plan_name,\n    s.monthly_price_usd,\n    s.canceled_at::date as churn_date\nfrom subscriptions s\ninner join customers c on s.customer_id = c.customer_id\nwhere s.status = 'canceled'\n",
+      "columns": {
+        "subscription_id": {
+          "name": "subscription_id",
+          "data_type": "string"
+        },
+        "customer_id": {
+          "name": "customer_id",
+          "data_type": "string"
+        },
+        "customer_account_id": {
+          "name": "customer_account_id",
+          "data_type": "string"
+        },
+        "churn_date": {
+          "name": "churn_date",
+          "data_type": "date"
+        }
+      }
+    },
+    "model.analytics.stg_customers": {
+      "name": "stg_customers",
+      "resource_type": "model",
+      "raw_code": "-- models/staging/stg_customers.sql\nwith source as (\n    select * from {{ source('raw_crm', 'customers') }}\n)\n\nselect\n    id as customer_id,\n    acc_no as account_id, -- Refactored from customer_account_id in PR #402\n    email,\n    created_at\nfrom source\n",
+      "columns": {
+        "customer_id": {
+          "name": "customer_id",
+          "data_type": "string"
+        },
+        "account_id": {
+          "name": "account_id",
+          "data_type": "string"
+        }
+      }
+    }
+  }
+}

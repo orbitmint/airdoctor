@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "dbt_version": "1.8.2",
+    "generated_at": "2026-09-29T11:01:49+00:00"
+  },
+  "results": [
+    {
+      "status": "error",
+      "timing": [
+        {
+          "name": "execute",
+          "duration": 2.89
+        }
+      ],
+      "thread_id": "Thread-3",
+      "unique_id": "model.analytics.fct_customer_churn_daily",
+      "message": "Database Error in model fct_customer_churn_daily (models/marts/finance/fct_customer_churn_daily.sql)\n  column \"customer_account_id\" does not exist in relation \"stg_customers\"\n  HINT: Perhaps you meant to reference the column \"stg_customers.account_id\".",
+      "adapter_response": {
+        "code": "42703",
+        "rows_affected": 0
+      }
+    }
+  ]
+}

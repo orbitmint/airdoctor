@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-09-29T10:31:24+00:00",
+    "severity": "ERROR",
+    "jsonPayload": {
+      "error_code": "40P01",
+      "error_name": "deadlock_detected",
+      "query": "UPDATE financial.merchant_balance_ledger SET pending_balance = pending_balance + 482.10 WHERE merchant_id = 'MCH_98214'",
+      "blocked_by": "transaction 91823901 (concurrent payout batch job)",
+      "detail": "Process 28104 waits for ShareLock on transaction 91823901; blocked by process 28119.",
+      "database": "postgres_dw_prod"
+    }
+  }
+]

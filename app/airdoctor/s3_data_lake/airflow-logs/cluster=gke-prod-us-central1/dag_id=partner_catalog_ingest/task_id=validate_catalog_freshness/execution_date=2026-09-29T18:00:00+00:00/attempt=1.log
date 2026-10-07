@@ -1,0 +1,5 @@
+*** Reading remote log from S3: s3://airdoctor-data-platform-logs-prod/airflow-logs/cluster=gke-prod-us-central1/dag_id=partner_catalog_ingest/task_id=validate_catalog_freshness/attempt=1.log
+[2026-09-29T18:00:00.000+0000] {taskinstance.py:1165} INFO - Starting partner_catalog_ingest.validate_catalog_freshness
+[2026-09-29T18:00:04.000+0000] {data_quality_operator.py:52} ERROR - QualityContractException: Table 'raw.partner_products' received 0 rows in daily ingest (Historical baseline: 420,000 +/- 15,000 rows).
+ALERT: Silent partner API ingestion failure suspected. Downstream reporting marts at risk of empty data corruption!
+[2026-09-29T18:00:05.000+0000] {taskinstance.py:1898} ERROR - Data quality contract violated: ZERO_ROWS_DELIVERED.

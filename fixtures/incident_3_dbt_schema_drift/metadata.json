@@ -1,0 +1,11 @@
+{
+  "scenario_id": "dbt_schema_drift_missing_column",
+  "cluster": "gke-analytics-europe-west1",
+  "dag_id": "finance_daily_marts",
+  "task_id": "dbt_build_finance",
+  "run_id": "scheduled__2026-09-29T11:00:00",
+  "failing_model": "models/marts/finance/fct_customer_churn_daily.sql",
+  "root_cause": "Column 'customer_account_id' referenced in fct_customer_churn_daily does not exist in stg_customers. Upstream PR refactored column to 'account_id'.",
+  "recommended_action": "GENERATE_CODE_PATCH_PR",
+  "is_transient": false
+}

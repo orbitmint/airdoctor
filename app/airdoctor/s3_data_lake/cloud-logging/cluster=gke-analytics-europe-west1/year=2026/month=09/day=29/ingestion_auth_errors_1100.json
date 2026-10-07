@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2026-09-29T11:00:15Z",
+    "severity": "ERROR",
+    "jsonPayload": {
+      "error": "google.auth.exceptions.RefreshError",
+      "message": "The credentials have expired and could not be refreshed.",
+      "target": "gs://eu-lake-events/raw_transactions/dt=2026-09-29/"
+    }
+  }
+]

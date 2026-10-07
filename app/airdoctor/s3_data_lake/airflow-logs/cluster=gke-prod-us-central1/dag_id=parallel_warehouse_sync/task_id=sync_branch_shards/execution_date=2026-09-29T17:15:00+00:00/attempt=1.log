@@ -1,0 +1,5 @@
+*** Reading remote log from S3: s3://airdoctor-data-platform-logs-prod/airflow-logs/cluster=gke-prod-us-central1/dag_id=parallel_warehouse_sync/task_id=sync_branch_shards/attempt=1.log
+[2026-09-29T17:15:00.000+0000] {taskinstance.py:1165} INFO - Starting parallel_warehouse_sync.sync_branch_shards (Concurrency: 64 tasks)
+[2026-09-29T17:15:02.000+0000] {db_pool.py:44} ERROR - psycopg2.OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections
+DETAIL: Database connection pool exhausted (max_connections=200). 64 Airflow worker tasks connected simultaneously.
+[2026-09-29T17:15:03.000+0000] {taskinstance.py:1898} ERROR - Could not acquire connection from pool.

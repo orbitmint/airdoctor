@@ -1,0 +1,5 @@
+*** Reading remote log from S3: s3://airdoctor-data-platform-logs-prod/airflow-logs/cluster=gke-prod-us-central1/dag_id=s3_archive_sync/task_id=upload_raw_telemetry/attempt=1.log
+[2026-09-29T20:10:00.000+0000] {taskinstance.py:1165} INFO - Starting s3_archive_sync.upload_raw_telemetry
+[2026-09-29T20:10:02.000+0000] {s3_hook.py:102} ERROR - botocore.exceptions.ClientError: An error occurred (RequestTimeTooSkewed) when calling the PutObject operation: The difference between the request time and the current time is too large.
+DETAIL: GKE node system clock drifted by 1024 seconds from AWS NTP pool. AWS Signature v4 rejected signature.
+[2026-09-29T20:10:03.000+0000] {taskinstance.py:1898} ERROR - S3 API authentication failed due to node clock drift.

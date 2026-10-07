@@ -1,0 +1,4 @@
+[2026-09-29T06:00:00.000+0000] {taskinstance.py:1165} INFO - Starting task: apac_orders_rollup.aggregate_regional_sales
+[2026-09-29T06:00:04.000+0000] {postgres_operator.py:44} INFO - Connecting to replica db.tokyo.internal.corp:5432...
+[2026-09-29T06:01:04.000+0000] {postgres_operator.py:58} ERROR - psycopg2.OperationalError: could not connect to server: Connection timed out after 60000ms.
+[2026-09-29T06:01:05.000+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. Attempts remaining: 2

@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: raw_crm
+    tables:
+      - name: customers
+  - name: billing
+    tables:
+      - name: subscriptions
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests: [unique, not_null]
+      - name: account_id
+        description: "Primary ledger account identifier"

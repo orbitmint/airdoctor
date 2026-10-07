@@ -1,0 +1,13 @@
+{
+  "scenario_id": "oom_exit_code_137",
+  "cluster": "gke-prod-us-central1",
+  "dag_id": "analytics_daily_etl",
+  "task_id": "run_dbt_heavy_aggregation",
+  "run_id": "manual__2026-09-29T10:00:00",
+  "operator": "KubernetesPodOperator",
+  "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+  "root_cause": "Container memory limit 2048Mi exceeded during multi-way table join in dbt model marts.fct_omnichannel_attribution_massive.",
+  "recommended_action": "BUMP_POD_MEMORY_AND_CLEAR",
+  "suggested_memory_limit": "4096Mi",
+  "suggested_memory_request": "2048Mi"
+}

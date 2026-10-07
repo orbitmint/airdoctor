@@ -1,0 +1,4 @@
+[2026-09-29T11:00:00.000+0000] {taskinstance.py:1165} INFO - Starting ingestion job: eu_raw_ingestion_hourly.upload_transactions_to_lake
+[2026-09-29T11:00:15.000+0000] {gcs_hook.py:84} ERROR - google.auth.exceptions.RefreshError: The credentials have expired and could not be refreshed.
+[2026-09-29T11:00:16.000+0000] {taskinstance.py:1898} ERROR - Task failed. Partition gs://eu-lake-events/raw_transactions/dt=2026-09-29/ was not written.
+[2026-09-29T11:00:16.000+0000] {taskinstance.py:1406} ERROR - Marking task as FAILED.

@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-09-29T11:15:00+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-analytics-europe-west1",
+        "namespace_name": "airflow-workers",
+        "dag_id": "eu_raw_ingestion_hourly"
+      }
+    },
+    "severity": "ERROR",
+    "jsonPayload": {
+      "message": "GCS upload failed: google.auth.exceptions.RefreshError: The credentials have expired and could not be refreshed.",
+      "target_bucket": "gs://eu-lake-events/raw_transactions/dt=2026-09-29/",
+      "upstream_dag_status": "FAILED",
+      "upstream_run_id": "scheduled__2026-09-29T11:00:00"
+    }
+  }
+]

@@ -1,0 +1,2 @@
+[2026-09-28T11:00:00.000+0000] {dbt_operator.py:102} INFO - Running: dbt build --select tag:marts_finance
+[2026-09-28T11:02:14.000+0000] {dbt_operator.py:145} INFO - Finished running 151 models: 151 succeeded, 0 failed. State: SUCCESS.

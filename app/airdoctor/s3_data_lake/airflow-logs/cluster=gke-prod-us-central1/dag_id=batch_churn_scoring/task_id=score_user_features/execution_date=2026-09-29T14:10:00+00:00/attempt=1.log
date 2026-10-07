@@ -1,0 +1,8 @@
+*** Reading remote log from S3: s3://airdoctor-data-platform-logs-prod/airflow-logs/cluster=gke-prod-us-central1/dag_id=batch_churn_scoring/task_id=score_user_features/attempt=1.log
+[2026-09-29T14:10:00.000+0000] {taskinstance.py:1165} INFO - Starting task: batch_churn_scoring.score_user_features on GKE spot pool
+[2026-09-29T14:10:05.000+0000] {kubernetes_pod.py:461} INFO - Pod scheduled on GKE node gke-prod-us-central1-spot-pool-9a8b (preemptible VM)
+[2026-09-29T14:11:42.000+0000] {python_operator.py:84} INFO - Processing feature matrix: 1,420,000 users loaded...
+[2026-09-29T14:12:01.000+0000] {kubernetes_executor.py:421} WARNING - Node gke-prod-us-central1-spot-pool-9a8b received preemption notice from Google Cloud. Node drain initiated.
+[2026-09-29T14:12:02.000+0000] {pod_manager.py:382} ERROR - Pod received SIGTERM (exit code 143). Reason: TerminatedByPreemption.
+[2026-09-29T14:12:03.000+0000] {taskinstance.py:1898} ERROR - Task failed due to spot node reclaim.
+[2026-09-29T14:12:03.000+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. Attempts remaining: 1

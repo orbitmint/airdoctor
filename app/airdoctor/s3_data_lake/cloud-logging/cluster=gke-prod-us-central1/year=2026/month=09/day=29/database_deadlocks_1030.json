@@ -1,0 +1,13 @@
+[
+  {
+    "timestamp": "2026-09-29T10:31:24Z",
+    "severity": "ERROR",
+    "jsonPayload": {
+      "error_code": "40P01",
+      "message": "deadlock detected on relation 'merchant_balance_ledger'",
+      "process_id": 28104,
+      "blocked_by": 28119,
+      "table": "financial.merchant_balance_ledger"
+    }
+  }
+]

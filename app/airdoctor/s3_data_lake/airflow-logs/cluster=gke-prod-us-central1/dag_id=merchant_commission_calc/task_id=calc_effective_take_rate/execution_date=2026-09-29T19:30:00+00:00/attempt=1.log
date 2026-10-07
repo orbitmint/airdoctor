@@ -1,0 +1,6 @@
+*** Reading remote log from S3: s3://airdoctor-data-platform-logs-prod/airflow-logs/cluster=gke-prod-us-central1/dag_id=merchant_commission_calc/task_id=calc_effective_take_rate/attempt=1.log
+[2026-09-29T19:30:00.000+0000] {taskinstance.py:1165} INFO - Starting merchant_commission_calc.calc_effective_take_rate
+[2026-09-29T19:30:02.000+0000] {custom_sql_operator.py:82} ERROR - psycopg2.errors.DivisionByZero: division by zero
+QUERY: SELECT merchant_id, net_payout / gross_transactions AS take_rate FROM financial.merchant_fee_ledger WHERE batch_dt = '2026-09-29';
+CONTEXT: Encountered merchant_id='MCH_90112' with gross_transactions=0.
+[2026-09-29T19:30:03.000+0000] {taskinstance.py:1898} ERROR - Transaction aborted due to division by zero.

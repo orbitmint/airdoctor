@@ -1,0 +1,2774 @@
+[
+  {
+    "insertId": "gke-log-oom-00000",
+    "timestamp": "2026-09-29T09:54:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1000MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00001",
+    "timestamp": "2026-09-29T09:55:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1008MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00002",
+    "timestamp": "2026-09-29T09:55:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1017MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00003",
+    "timestamp": "2026-09-29T09:55:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1026MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00004",
+    "timestamp": "2026-09-29T09:55:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1035MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00005",
+    "timestamp": "2026-09-29T09:55:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1044MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00006",
+    "timestamp": "2026-09-29T09:55:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1052MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00007",
+    "timestamp": "2026-09-29T09:55:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1061MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00008",
+    "timestamp": "2026-09-29T09:55:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1070MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00009",
+    "timestamp": "2026-09-29T09:55:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1079MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00010",
+    "timestamp": "2026-09-29T09:55:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1088MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00011",
+    "timestamp": "2026-09-29T09:55:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1096MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00012",
+    "timestamp": "2026-09-29T09:55:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1105MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00013",
+    "timestamp": "2026-09-29T09:56:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1114MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00014",
+    "timestamp": "2026-09-29T09:56:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1123MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00015",
+    "timestamp": "2026-09-29T09:56:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1132MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00016",
+    "timestamp": "2026-09-29T09:56:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1140MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00017",
+    "timestamp": "2026-09-29T09:56:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1149MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00018",
+    "timestamp": "2026-09-29T09:56:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1158MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00019",
+    "timestamp": "2026-09-29T09:56:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1167MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00020",
+    "timestamp": "2026-09-29T09:56:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1176MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00021",
+    "timestamp": "2026-09-29T09:56:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1184MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00022",
+    "timestamp": "2026-09-29T09:56:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1193MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00023",
+    "timestamp": "2026-09-29T09:56:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1202MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00024",
+    "timestamp": "2026-09-29T09:56:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1211MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00025",
+    "timestamp": "2026-09-29T09:57:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1220MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00026",
+    "timestamp": "2026-09-29T09:57:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1228MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00027",
+    "timestamp": "2026-09-29T09:57:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1237MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00028",
+    "timestamp": "2026-09-29T09:57:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1246MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00029",
+    "timestamp": "2026-09-29T09:57:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1255MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00030",
+    "timestamp": "2026-09-29T09:57:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1264MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00031",
+    "timestamp": "2026-09-29T09:57:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1272MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00032",
+    "timestamp": "2026-09-29T09:57:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1281MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00033",
+    "timestamp": "2026-09-29T09:57:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1290MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00034",
+    "timestamp": "2026-09-29T09:57:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1299MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00035",
+    "timestamp": "2026-09-29T09:57:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1308MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00036",
+    "timestamp": "2026-09-29T09:57:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1316MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00037",
+    "timestamp": "2026-09-29T09:58:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1325MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00038",
+    "timestamp": "2026-09-29T09:58:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1334MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00039",
+    "timestamp": "2026-09-29T09:58:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1343MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00040",
+    "timestamp": "2026-09-29T09:58:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1352MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00041",
+    "timestamp": "2026-09-29T09:58:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1360MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00042",
+    "timestamp": "2026-09-29T09:58:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1369MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00043",
+    "timestamp": "2026-09-29T09:58:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1378MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00044",
+    "timestamp": "2026-09-29T09:58:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1387MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00045",
+    "timestamp": "2026-09-29T09:58:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1396MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00046",
+    "timestamp": "2026-09-29T09:58:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1404MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00047",
+    "timestamp": "2026-09-29T09:58:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1413MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00048",
+    "timestamp": "2026-09-29T09:58:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1422MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00049",
+    "timestamp": "2026-09-29T09:59:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1431MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00050",
+    "timestamp": "2026-09-29T09:59:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1440MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00051",
+    "timestamp": "2026-09-29T09:59:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1448MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00052",
+    "timestamp": "2026-09-29T09:59:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1457MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00053",
+    "timestamp": "2026-09-29T09:59:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1466MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00054",
+    "timestamp": "2026-09-29T09:59:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1475MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00055",
+    "timestamp": "2026-09-29T09:59:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1484MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00056",
+    "timestamp": "2026-09-29T09:59:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1492MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00057",
+    "timestamp": "2026-09-29T09:59:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1501MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00058",
+    "timestamp": "2026-09-29T09:59:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1510MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00059",
+    "timestamp": "2026-09-29T09:59:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1519MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00060",
+    "timestamp": "2026-09-29T09:59:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1528MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00061",
+    "timestamp": "2026-09-29T10:00:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1536MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00062",
+    "timestamp": "2026-09-29T10:00:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1545MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00063",
+    "timestamp": "2026-09-29T10:00:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1554MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00064",
+    "timestamp": "2026-09-29T10:00:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1563MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00065",
+    "timestamp": "2026-09-29T10:00:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1572MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00066",
+    "timestamp": "2026-09-29T10:00:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1580MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00067",
+    "timestamp": "2026-09-29T10:00:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1589MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00068",
+    "timestamp": "2026-09-29T10:00:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1598MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00069",
+    "timestamp": "2026-09-29T10:00:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1607MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00070",
+    "timestamp": "2026-09-29T10:00:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1616MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00071",
+    "timestamp": "2026-09-29T10:00:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1624MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00072",
+    "timestamp": "2026-09-29T10:00:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1633MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00073",
+    "timestamp": "2026-09-29T10:01:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1642MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00074",
+    "timestamp": "2026-09-29T10:01:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1651MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00075",
+    "timestamp": "2026-09-29T10:01:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1660MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00076",
+    "timestamp": "2026-09-29T10:01:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1668MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00077",
+    "timestamp": "2026-09-29T10:01:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1677MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00078",
+    "timestamp": "2026-09-29T10:01:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1686MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00079",
+    "timestamp": "2026-09-29T10:01:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1695MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00080",
+    "timestamp": "2026-09-29T10:01:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1704MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00081",
+    "timestamp": "2026-09-29T10:01:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1712MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00082",
+    "timestamp": "2026-09-29T10:01:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1721MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00083",
+    "timestamp": "2026-09-29T10:01:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1730MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00084",
+    "timestamp": "2026-09-29T10:01:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1739MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00085",
+    "timestamp": "2026-09-29T10:02:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1748MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00086",
+    "timestamp": "2026-09-29T10:02:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1756MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00087",
+    "timestamp": "2026-09-29T10:02:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1765MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00088",
+    "timestamp": "2026-09-29T10:02:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1774MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00089",
+    "timestamp": "2026-09-29T10:02:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1783MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00090",
+    "timestamp": "2026-09-29T10:02:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1792MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00091",
+    "timestamp": "2026-09-29T10:02:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1800MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00092",
+    "timestamp": "2026-09-29T10:02:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1809MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00093",
+    "timestamp": "2026-09-29T10:02:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1818MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00094",
+    "timestamp": "2026-09-29T10:02:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1827MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00095",
+    "timestamp": "2026-09-29T10:02:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1836MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00096",
+    "timestamp": "2026-09-29T10:02:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1844MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00097",
+    "timestamp": "2026-09-29T10:03:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1853MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00098",
+    "timestamp": "2026-09-29T10:03:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1862MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00099",
+    "timestamp": "2026-09-29T10:03:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1871MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00100",
+    "timestamp": "2026-09-29T10:03:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1880MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00101",
+    "timestamp": "2026-09-29T10:03:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1888MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00102",
+    "timestamp": "2026-09-29T10:03:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "INFO",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1897MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00103",
+    "timestamp": "2026-09-29T10:03:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1906MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00104",
+    "timestamp": "2026-09-29T10:03:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1915MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00105",
+    "timestamp": "2026-09-29T10:03:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1924MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00106",
+    "timestamp": "2026-09-29T10:03:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1932MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00107",
+    "timestamp": "2026-09-29T10:03:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1941MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00108",
+    "timestamp": "2026-09-29T10:03:56.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1950MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00109",
+    "timestamp": "2026-09-29T10:04:01.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1959MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00110",
+    "timestamp": "2026-09-29T10:04:06.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1968MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00111",
+    "timestamp": "2026-09-29T10:04:11.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1976MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00112",
+    "timestamp": "2026-09-29T10:04:16.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1985MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00113",
+    "timestamp": "2026-09-29T10:04:21.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 1994MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00114",
+    "timestamp": "2026-09-29T10:04:26.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 2003MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00115",
+    "timestamp": "2026-09-29T10:04:31.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 2012MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00116",
+    "timestamp": "2026-09-29T10:04:36.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 2020MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00117",
+    "timestamp": "2026-09-29T10:04:41.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "WARNING",
+    "jsonPayload": {
+      "message": "cgroup memory usage at 2029MB out of 2048MB limit",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 0,
+      "reason": "Running",
+      "oom_kill_event": null
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00118",
+    "timestamp": "2026-09-29T10:04:46.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "CRITICAL",
+    "jsonPayload": {
+      "message": "Memory cgroup out of memory: Killed process 4112 (python3) total-vm:4194304kB, anon-rss:2097152kB, file-rss:0kB, shmem-rss:0kB",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 137,
+      "reason": "OOMKilled",
+      "oom_kill_event": {
+        "victim_pid": 4112,
+        "memory_limit_bytes": 2147483648,
+        "memory_usage_bytes": 2147483648,
+        "container_name": "base",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a"
+      }
+    }
+  },
+  {
+    "insertId": "gke-log-oom-00119",
+    "timestamp": "2026-09-29T10:04:51.200000+00:00",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "gke-prod-us-central1",
+        "namespace_name": "airflow-workers",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a",
+        "container_name": "base",
+        "project_id": "data-platform-prod",
+        "location": "us-central1-a"
+      }
+    },
+    "severity": "CRITICAL",
+    "jsonPayload": {
+      "message": "Memory cgroup out of memory: Killed process 4112 (python3) total-vm:4194304kB, anon-rss:2097152kB, file-rss:0kB, shmem-rss:0kB",
+      "container_id": "containerd://89a7f34c98bc0192e",
+      "exit_code": 137,
+      "reason": "OOMKilled",
+      "oom_kill_event": {
+        "victim_pid": 4112,
+        "memory_limit_bytes": 2147483648,
+        "memory_usage_bytes": 2147483648,
+        "container_name": "base",
+        "pod_name": "airflow-worker-dbt-heavy-join-4f892a"
+      }
+    }
+  }
+]

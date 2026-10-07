@@ -1,0 +1,7 @@
+*** Reading remote log from S3: s3://airdoctor-data-platform-logs-prod/airflow-logs/cluster=gke-prod-us-central1/dag_id=parquet_large_export/task_id=dump_clickstream_parquet/attempt=1.log
+[2026-09-29T15:15:00.000+0000] {taskinstance.py:1165} INFO - Starting export: parquet_large_export.dump_clickstream_parquet
+[2026-09-29T15:15:04.000+0000] {duckdb_operator.py:42} INFO - Streaming 48,000,000 raw click events to /tmp/scratch/
+[2026-09-29T15:19:58.000+0000] {duckdb_operator.py:65} INFO - Ingested 18GB Parquet buffer. Available disk: 1.2GB...
+[2026-09-29T15:20:12.000+0000] {duckdb_operator.py:84} ERROR - OSError: [Errno 28] No space left on device: '/tmp/scratch/clickstream_chunk_48.parquet'
+[2026-09-29T15:20:13.000+0000] {pod_manager.py:384} ERROR - Container evicted by kubelet: ephemeral-storage usage 21.4Gi exceeded limit 20Gi.
+[2026-09-29T15:20:14.000+0000] {taskinstance.py:1898} ERROR - Task failed with exception: No space left on device.

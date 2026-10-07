@@ -1,0 +1,466 @@
+[2026-09-29T11:00:00.000+0000] {dbt_operator.py:102} INFO - Running: dbt build --select tag:marts_finance --project-dir /dbt/analytics
+[2026-09-29T11:00:00.000+0000] {dbt_operator.py:115} INFO - Found 184 models, 420 tests, 28 snapshots, 14 sources
+[2026-09-29T11:00:00.000+0000] {dbt_operator.py:120} INFO - Concurrency: 8 threads (target='prod')
+[2026-09-29T11:00:02.700+0000] {dbt_operator.py:130} INFO - 11:00:02 | Thread 2: START sql view model staging.stg_payment_events_v001 [RUN]
+[2026-09-29T11:00:02.700+0000] {dbt_operator.py:130} INFO - 11:00:02 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_001;
+[2026-09-29T11:00:02.700+0000] {dbt_operator.py:130} INFO - 11:00:02 | Thread 2: OK created sql view model staging.stg_payment_events_v001 [SUCCESS in 0.84s]
+[2026-09-29T11:00:03.400+0000] {dbt_operator.py:130} INFO - 11:00:03 | Thread 3: START sql view model staging.stg_payment_events_v002 [RUN]
+[2026-09-29T11:00:03.400+0000] {dbt_operator.py:130} INFO - 11:00:03 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_002;
+[2026-09-29T11:00:03.400+0000] {dbt_operator.py:130} INFO - 11:00:03 | Thread 3: OK created sql view model staging.stg_payment_events_v002 [SUCCESS in 0.84s]
+[2026-09-29T11:00:04.100+0000] {dbt_operator.py:130} INFO - 11:00:04 | Thread 4: START sql view model staging.stg_payment_events_v003 [RUN]
+[2026-09-29T11:00:04.100+0000] {dbt_operator.py:130} INFO - 11:00:04 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_003;
+[2026-09-29T11:00:04.100+0000] {dbt_operator.py:130} INFO - 11:00:04 | Thread 4: OK created sql view model staging.stg_payment_events_v003 [SUCCESS in 0.84s]
+[2026-09-29T11:00:04.800+0000] {dbt_operator.py:130} INFO - 11:00:04 | Thread 5: START sql view model staging.stg_payment_events_v004 [RUN]
+[2026-09-29T11:00:04.800+0000] {dbt_operator.py:130} INFO - 11:00:04 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_004;
+[2026-09-29T11:00:04.800+0000] {dbt_operator.py:130} INFO - 11:00:04 | Thread 5: OK created sql view model staging.stg_payment_events_v004 [SUCCESS in 0.84s]
+[2026-09-29T11:00:05.500+0000] {dbt_operator.py:130} INFO - 11:00:05 | Thread 6: START sql view model staging.stg_payment_events_v005 [RUN]
+[2026-09-29T11:00:05.500+0000] {dbt_operator.py:130} INFO - 11:00:05 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_005;
+[2026-09-29T11:00:05.500+0000] {dbt_operator.py:130} INFO - 11:00:05 | Thread 6: OK created sql view model staging.stg_payment_events_v005 [SUCCESS in 0.84s]
+[2026-09-29T11:00:06.200+0000] {dbt_operator.py:130} INFO - 11:00:06 | Thread 7: START sql view model staging.stg_payment_events_v006 [RUN]
+[2026-09-29T11:00:06.200+0000] {dbt_operator.py:130} INFO - 11:00:06 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_006;
+[2026-09-29T11:00:06.200+0000] {dbt_operator.py:130} INFO - 11:00:06 | Thread 7: OK created sql view model staging.stg_payment_events_v006 [SUCCESS in 0.84s]
+[2026-09-29T11:00:06.900+0000] {dbt_operator.py:130} INFO - 11:00:06 | Thread 8: START sql view model staging.stg_payment_events_v007 [RUN]
+[2026-09-29T11:00:06.900+0000] {dbt_operator.py:130} INFO - 11:00:06 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_007;
+[2026-09-29T11:00:06.900+0000] {dbt_operator.py:130} INFO - 11:00:06 | Thread 8: OK created sql view model staging.stg_payment_events_v007 [SUCCESS in 0.84s]
+[2026-09-29T11:00:07.600+0000] {dbt_operator.py:130} INFO - 11:00:07 | Thread 1: START sql view model staging.stg_payment_events_v008 [RUN]
+[2026-09-29T11:00:07.600+0000] {dbt_operator.py:130} INFO - 11:00:07 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_008;
+[2026-09-29T11:00:07.600+0000] {dbt_operator.py:130} INFO - 11:00:07 | Thread 1: OK created sql view model staging.stg_payment_events_v008 [SUCCESS in 0.84s]
+[2026-09-29T11:00:08.300+0000] {dbt_operator.py:130} INFO - 11:00:08 | Thread 2: START sql view model staging.stg_payment_events_v009 [RUN]
+[2026-09-29T11:00:08.300+0000] {dbt_operator.py:130} INFO - 11:00:08 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_009;
+[2026-09-29T11:00:08.300+0000] {dbt_operator.py:130} INFO - 11:00:08 | Thread 2: OK created sql view model staging.stg_payment_events_v009 [SUCCESS in 0.84s]
+[2026-09-29T11:00:09.000+0000] {dbt_operator.py:130} INFO - 11:00:09 | Thread 3: START sql view model staging.stg_payment_events_v010 [RUN]
+[2026-09-29T11:00:09.000+0000] {dbt_operator.py:130} INFO - 11:00:09 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_010;
+[2026-09-29T11:00:09.000+0000] {dbt_operator.py:130} INFO - 11:00:09 | Thread 3: OK created sql view model staging.stg_payment_events_v010 [SUCCESS in 0.84s]
+[2026-09-29T11:00:09.700+0000] {dbt_operator.py:130} INFO - 11:00:09 | Thread 4: START sql view model staging.stg_payment_events_v011 [RUN]
+[2026-09-29T11:00:09.700+0000] {dbt_operator.py:130} INFO - 11:00:09 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_011;
+[2026-09-29T11:00:09.700+0000] {dbt_operator.py:130} INFO - 11:00:09 | Thread 4: OK created sql view model staging.stg_payment_events_v011 [SUCCESS in 0.84s]
+[2026-09-29T11:00:10.400+0000] {dbt_operator.py:130} INFO - 11:00:10 | Thread 5: START sql view model staging.stg_payment_events_v012 [RUN]
+[2026-09-29T11:00:10.400+0000] {dbt_operator.py:130} INFO - 11:00:10 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_012;
+[2026-09-29T11:00:10.400+0000] {dbt_operator.py:130} INFO - 11:00:10 | Thread 5: OK created sql view model staging.stg_payment_events_v012 [SUCCESS in 0.84s]
+[2026-09-29T11:00:11.100+0000] {dbt_operator.py:130} INFO - 11:00:11 | Thread 6: START sql view model staging.stg_payment_events_v013 [RUN]
+[2026-09-29T11:00:11.100+0000] {dbt_operator.py:130} INFO - 11:00:11 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_013;
+[2026-09-29T11:00:11.100+0000] {dbt_operator.py:130} INFO - 11:00:11 | Thread 6: OK created sql view model staging.stg_payment_events_v013 [SUCCESS in 0.84s]
+[2026-09-29T11:00:11.800+0000] {dbt_operator.py:130} INFO - 11:00:11 | Thread 7: START sql view model staging.stg_payment_events_v014 [RUN]
+[2026-09-29T11:00:11.800+0000] {dbt_operator.py:130} INFO - 11:00:11 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_014;
+[2026-09-29T11:00:11.800+0000] {dbt_operator.py:130} INFO - 11:00:11 | Thread 7: OK created sql view model staging.stg_payment_events_v014 [SUCCESS in 0.84s]
+[2026-09-29T11:00:12.500+0000] {dbt_operator.py:130} INFO - 11:00:12 | Thread 8: START sql view model staging.stg_payment_events_v015 [RUN]
+[2026-09-29T11:00:12.500+0000] {dbt_operator.py:130} INFO - 11:00:12 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_015;
+[2026-09-29T11:00:12.500+0000] {dbt_operator.py:130} INFO - 11:00:12 | Thread 8: OK created sql view model staging.stg_payment_events_v015 [SUCCESS in 0.84s]
+[2026-09-29T11:00:13.200+0000] {dbt_operator.py:130} INFO - 11:00:13 | Thread 1: START sql view model staging.stg_payment_events_v016 [RUN]
+[2026-09-29T11:00:13.200+0000] {dbt_operator.py:130} INFO - 11:00:13 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_016;
+[2026-09-29T11:00:13.200+0000] {dbt_operator.py:130} INFO - 11:00:13 | Thread 1: OK created sql view model staging.stg_payment_events_v016 [SUCCESS in 0.84s]
+[2026-09-29T11:00:13.900+0000] {dbt_operator.py:130} INFO - 11:00:13 | Thread 2: START sql view model staging.stg_payment_events_v017 [RUN]
+[2026-09-29T11:00:13.900+0000] {dbt_operator.py:130} INFO - 11:00:13 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_017;
+[2026-09-29T11:00:13.900+0000] {dbt_operator.py:130} INFO - 11:00:13 | Thread 2: OK created sql view model staging.stg_payment_events_v017 [SUCCESS in 0.84s]
+[2026-09-29T11:00:14.600+0000] {dbt_operator.py:130} INFO - 11:00:14 | Thread 3: START sql view model staging.stg_payment_events_v018 [RUN]
+[2026-09-29T11:00:14.600+0000] {dbt_operator.py:130} INFO - 11:00:14 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_018;
+[2026-09-29T11:00:14.600+0000] {dbt_operator.py:130} INFO - 11:00:14 | Thread 3: OK created sql view model staging.stg_payment_events_v018 [SUCCESS in 0.84s]
+[2026-09-29T11:00:15.300+0000] {dbt_operator.py:130} INFO - 11:00:15 | Thread 4: START sql view model staging.stg_payment_events_v019 [RUN]
+[2026-09-29T11:00:15.300+0000] {dbt_operator.py:130} INFO - 11:00:15 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_019;
+[2026-09-29T11:00:15.300+0000] {dbt_operator.py:130} INFO - 11:00:15 | Thread 4: OK created sql view model staging.stg_payment_events_v019 [SUCCESS in 0.84s]
+[2026-09-29T11:00:16.000+0000] {dbt_operator.py:130} INFO - 11:00:16 | Thread 5: START sql view model staging.stg_payment_events_v020 [RUN]
+[2026-09-29T11:00:16.000+0000] {dbt_operator.py:130} INFO - 11:00:16 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_020;
+[2026-09-29T11:00:16.000+0000] {dbt_operator.py:130} INFO - 11:00:16 | Thread 5: OK created sql view model staging.stg_payment_events_v020 [SUCCESS in 0.84s]
+[2026-09-29T11:00:16.700+0000] {dbt_operator.py:130} INFO - 11:00:16 | Thread 6: START sql view model staging.stg_payment_events_v021 [RUN]
+[2026-09-29T11:00:16.700+0000] {dbt_operator.py:130} INFO - 11:00:16 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_021;
+[2026-09-29T11:00:16.700+0000] {dbt_operator.py:130} INFO - 11:00:16 | Thread 6: OK created sql view model staging.stg_payment_events_v021 [SUCCESS in 0.84s]
+[2026-09-29T11:00:17.400+0000] {dbt_operator.py:130} INFO - 11:00:17 | Thread 7: START sql view model staging.stg_payment_events_v022 [RUN]
+[2026-09-29T11:00:17.400+0000] {dbt_operator.py:130} INFO - 11:00:17 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_022;
+[2026-09-29T11:00:17.400+0000] {dbt_operator.py:130} INFO - 11:00:17 | Thread 7: OK created sql view model staging.stg_payment_events_v022 [SUCCESS in 0.84s]
+[2026-09-29T11:00:18.100+0000] {dbt_operator.py:130} INFO - 11:00:18 | Thread 8: START sql view model staging.stg_payment_events_v023 [RUN]
+[2026-09-29T11:00:18.100+0000] {dbt_operator.py:130} INFO - 11:00:18 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_023;
+[2026-09-29T11:00:18.100+0000] {dbt_operator.py:130} INFO - 11:00:18 | Thread 8: OK created sql view model staging.stg_payment_events_v023 [SUCCESS in 0.84s]
+[2026-09-29T11:00:18.800+0000] {dbt_operator.py:130} INFO - 11:00:18 | Thread 1: START sql view model staging.stg_payment_events_v024 [RUN]
+[2026-09-29T11:00:18.800+0000] {dbt_operator.py:130} INFO - 11:00:18 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_024;
+[2026-09-29T11:00:18.800+0000] {dbt_operator.py:130} INFO - 11:00:18 | Thread 1: OK created sql view model staging.stg_payment_events_v024 [SUCCESS in 0.84s]
+[2026-09-29T11:00:19.500+0000] {dbt_operator.py:130} INFO - 11:00:19 | Thread 2: START sql view model staging.stg_payment_events_v025 [RUN]
+[2026-09-29T11:00:19.500+0000] {dbt_operator.py:130} INFO - 11:00:19 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_025;
+[2026-09-29T11:00:19.500+0000] {dbt_operator.py:130} INFO - 11:00:19 | Thread 2: OK created sql view model staging.stg_payment_events_v025 [SUCCESS in 0.84s]
+[2026-09-29T11:00:20.200+0000] {dbt_operator.py:130} INFO - 11:00:20 | Thread 3: START sql view model staging.stg_payment_events_v026 [RUN]
+[2026-09-29T11:00:20.200+0000] {dbt_operator.py:130} INFO - 11:00:20 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_026;
+[2026-09-29T11:00:20.200+0000] {dbt_operator.py:130} INFO - 11:00:20 | Thread 3: OK created sql view model staging.stg_payment_events_v026 [SUCCESS in 0.84s]
+[2026-09-29T11:00:20.900+0000] {dbt_operator.py:130} INFO - 11:00:20 | Thread 4: START sql view model staging.stg_payment_events_v027 [RUN]
+[2026-09-29T11:00:20.900+0000] {dbt_operator.py:130} INFO - 11:00:20 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_027;
+[2026-09-29T11:00:20.900+0000] {dbt_operator.py:130} INFO - 11:00:20 | Thread 4: OK created sql view model staging.stg_payment_events_v027 [SUCCESS in 0.84s]
+[2026-09-29T11:00:21.600+0000] {dbt_operator.py:130} INFO - 11:00:21 | Thread 5: START sql view model staging.stg_payment_events_v028 [RUN]
+[2026-09-29T11:00:21.600+0000] {dbt_operator.py:130} INFO - 11:00:21 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_028;
+[2026-09-29T11:00:21.600+0000] {dbt_operator.py:130} INFO - 11:00:21 | Thread 5: OK created sql view model staging.stg_payment_events_v028 [SUCCESS in 0.84s]
+[2026-09-29T11:00:22.300+0000] {dbt_operator.py:130} INFO - 11:00:22 | Thread 6: START sql view model staging.stg_payment_events_v029 [RUN]
+[2026-09-29T11:00:22.300+0000] {dbt_operator.py:130} INFO - 11:00:22 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_029;
+[2026-09-29T11:00:22.300+0000] {dbt_operator.py:130} INFO - 11:00:22 | Thread 6: OK created sql view model staging.stg_payment_events_v029 [SUCCESS in 0.84s]
+[2026-09-29T11:00:23.000+0000] {dbt_operator.py:130} INFO - 11:00:23 | Thread 7: START sql view model staging.stg_payment_events_v030 [RUN]
+[2026-09-29T11:00:23.000+0000] {dbt_operator.py:130} INFO - 11:00:23 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_030;
+[2026-09-29T11:00:23.000+0000] {dbt_operator.py:130} INFO - 11:00:23 | Thread 7: OK created sql view model staging.stg_payment_events_v030 [SUCCESS in 0.84s]
+[2026-09-29T11:00:23.700+0000] {dbt_operator.py:130} INFO - 11:00:23 | Thread 8: START sql view model staging.stg_payment_events_v031 [RUN]
+[2026-09-29T11:00:23.700+0000] {dbt_operator.py:130} INFO - 11:00:23 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_031;
+[2026-09-29T11:00:23.700+0000] {dbt_operator.py:130} INFO - 11:00:23 | Thread 8: OK created sql view model staging.stg_payment_events_v031 [SUCCESS in 0.84s]
+[2026-09-29T11:00:24.400+0000] {dbt_operator.py:130} INFO - 11:00:24 | Thread 1: START sql view model staging.stg_payment_events_v032 [RUN]
+[2026-09-29T11:00:24.400+0000] {dbt_operator.py:130} INFO - 11:00:24 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_032;
+[2026-09-29T11:00:24.400+0000] {dbt_operator.py:130} INFO - 11:00:24 | Thread 1: OK created sql view model staging.stg_payment_events_v032 [SUCCESS in 0.84s]
+[2026-09-29T11:00:25.100+0000] {dbt_operator.py:130} INFO - 11:00:25 | Thread 2: START sql view model staging.stg_payment_events_v033 [RUN]
+[2026-09-29T11:00:25.100+0000] {dbt_operator.py:130} INFO - 11:00:25 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_033;
+[2026-09-29T11:00:25.100+0000] {dbt_operator.py:130} INFO - 11:00:25 | Thread 2: OK created sql view model staging.stg_payment_events_v033 [SUCCESS in 0.84s]
+[2026-09-29T11:00:25.800+0000] {dbt_operator.py:130} INFO - 11:00:25 | Thread 3: START sql view model staging.stg_payment_events_v034 [RUN]
+[2026-09-29T11:00:25.800+0000] {dbt_operator.py:130} INFO - 11:00:25 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_034;
+[2026-09-29T11:00:25.800+0000] {dbt_operator.py:130} INFO - 11:00:25 | Thread 3: OK created sql view model staging.stg_payment_events_v034 [SUCCESS in 0.84s]
+[2026-09-29T11:00:26.500+0000] {dbt_operator.py:130} INFO - 11:00:26 | Thread 4: START sql view model staging.stg_payment_events_v035 [RUN]
+[2026-09-29T11:00:26.500+0000] {dbt_operator.py:130} INFO - 11:00:26 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_035;
+[2026-09-29T11:00:26.500+0000] {dbt_operator.py:130} INFO - 11:00:26 | Thread 4: OK created sql view model staging.stg_payment_events_v035 [SUCCESS in 0.84s]
+[2026-09-29T11:00:27.200+0000] {dbt_operator.py:130} INFO - 11:00:27 | Thread 5: START sql view model staging.stg_payment_events_v036 [RUN]
+[2026-09-29T11:00:27.200+0000] {dbt_operator.py:130} INFO - 11:00:27 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_036;
+[2026-09-29T11:00:27.200+0000] {dbt_operator.py:130} INFO - 11:00:27 | Thread 5: OK created sql view model staging.stg_payment_events_v036 [SUCCESS in 0.84s]
+[2026-09-29T11:00:27.900+0000] {dbt_operator.py:130} INFO - 11:00:27 | Thread 6: START sql view model staging.stg_payment_events_v037 [RUN]
+[2026-09-29T11:00:27.900+0000] {dbt_operator.py:130} INFO - 11:00:27 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_037;
+[2026-09-29T11:00:27.900+0000] {dbt_operator.py:130} INFO - 11:00:27 | Thread 6: OK created sql view model staging.stg_payment_events_v037 [SUCCESS in 0.84s]
+[2026-09-29T11:00:28.600+0000] {dbt_operator.py:130} INFO - 11:00:28 | Thread 7: START sql view model staging.stg_payment_events_v038 [RUN]
+[2026-09-29T11:00:28.600+0000] {dbt_operator.py:130} INFO - 11:00:28 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_038;
+[2026-09-29T11:00:28.600+0000] {dbt_operator.py:130} INFO - 11:00:28 | Thread 7: OK created sql view model staging.stg_payment_events_v038 [SUCCESS in 0.84s]
+[2026-09-29T11:00:29.300+0000] {dbt_operator.py:130} INFO - 11:00:29 | Thread 8: START sql view model staging.stg_payment_events_v039 [RUN]
+[2026-09-29T11:00:29.300+0000] {dbt_operator.py:130} INFO - 11:00:29 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_039;
+[2026-09-29T11:00:29.300+0000] {dbt_operator.py:130} INFO - 11:00:29 | Thread 8: OK created sql view model staging.stg_payment_events_v039 [SUCCESS in 0.84s]
+[2026-09-29T11:00:30.000+0000] {dbt_operator.py:130} INFO - 11:00:30 | Thread 1: START sql view model staging.stg_payment_events_v040 [RUN]
+[2026-09-29T11:00:30.000+0000] {dbt_operator.py:130} INFO - 11:00:30 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_040;
+[2026-09-29T11:00:30.000+0000] {dbt_operator.py:130} INFO - 11:00:30 | Thread 1: OK created sql view model staging.stg_payment_events_v040 [SUCCESS in 0.84s]
+[2026-09-29T11:00:30.700+0000] {dbt_operator.py:130} INFO - 11:00:30 | Thread 2: START sql view model staging.stg_payment_events_v041 [RUN]
+[2026-09-29T11:00:30.700+0000] {dbt_operator.py:130} INFO - 11:00:30 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_041;
+[2026-09-29T11:00:30.700+0000] {dbt_operator.py:130} INFO - 11:00:30 | Thread 2: OK created sql view model staging.stg_payment_events_v041 [SUCCESS in 0.84s]
+[2026-09-29T11:00:31.400+0000] {dbt_operator.py:130} INFO - 11:00:31 | Thread 3: START sql view model staging.stg_payment_events_v042 [RUN]
+[2026-09-29T11:00:31.400+0000] {dbt_operator.py:130} INFO - 11:00:31 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_042;
+[2026-09-29T11:00:31.400+0000] {dbt_operator.py:130} INFO - 11:00:31 | Thread 3: OK created sql view model staging.stg_payment_events_v042 [SUCCESS in 0.84s]
+[2026-09-29T11:00:32.100+0000] {dbt_operator.py:130} INFO - 11:00:32 | Thread 4: START sql view model staging.stg_payment_events_v043 [RUN]
+[2026-09-29T11:00:32.100+0000] {dbt_operator.py:130} INFO - 11:00:32 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_043;
+[2026-09-29T11:00:32.100+0000] {dbt_operator.py:130} INFO - 11:00:32 | Thread 4: OK created sql view model staging.stg_payment_events_v043 [SUCCESS in 0.84s]
+[2026-09-29T11:00:32.800+0000] {dbt_operator.py:130} INFO - 11:00:32 | Thread 5: START sql view model staging.stg_payment_events_v044 [RUN]
+[2026-09-29T11:00:32.800+0000] {dbt_operator.py:130} INFO - 11:00:32 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_044;
+[2026-09-29T11:00:32.800+0000] {dbt_operator.py:130} INFO - 11:00:32 | Thread 5: OK created sql view model staging.stg_payment_events_v044 [SUCCESS in 0.84s]
+[2026-09-29T11:00:33.500+0000] {dbt_operator.py:130} INFO - 11:00:33 | Thread 6: START sql view model staging.stg_payment_events_v045 [RUN]
+[2026-09-29T11:00:33.500+0000] {dbt_operator.py:130} INFO - 11:00:33 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_045;
+[2026-09-29T11:00:33.500+0000] {dbt_operator.py:130} INFO - 11:00:33 | Thread 6: OK created sql view model staging.stg_payment_events_v045 [SUCCESS in 0.84s]
+[2026-09-29T11:00:34.200+0000] {dbt_operator.py:130} INFO - 11:00:34 | Thread 7: START sql view model staging.stg_payment_events_v046 [RUN]
+[2026-09-29T11:00:34.200+0000] {dbt_operator.py:130} INFO - 11:00:34 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_046;
+[2026-09-29T11:00:34.200+0000] {dbt_operator.py:130} INFO - 11:00:34 | Thread 7: OK created sql view model staging.stg_payment_events_v046 [SUCCESS in 0.84s]
+[2026-09-29T11:00:34.900+0000] {dbt_operator.py:130} INFO - 11:00:34 | Thread 8: START sql view model staging.stg_payment_events_v047 [RUN]
+[2026-09-29T11:00:34.900+0000] {dbt_operator.py:130} INFO - 11:00:34 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_047;
+[2026-09-29T11:00:34.900+0000] {dbt_operator.py:130} INFO - 11:00:34 | Thread 8: OK created sql view model staging.stg_payment_events_v047 [SUCCESS in 0.84s]
+[2026-09-29T11:00:35.600+0000] {dbt_operator.py:130} INFO - 11:00:35 | Thread 1: START sql view model staging.stg_payment_events_v048 [RUN]
+[2026-09-29T11:00:35.600+0000] {dbt_operator.py:130} INFO - 11:00:35 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_048;
+[2026-09-29T11:00:35.600+0000] {dbt_operator.py:130} INFO - 11:00:35 | Thread 1: OK created sql view model staging.stg_payment_events_v048 [SUCCESS in 0.84s]
+[2026-09-29T11:00:36.300+0000] {dbt_operator.py:130} INFO - 11:00:36 | Thread 2: START sql view model staging.stg_payment_events_v049 [RUN]
+[2026-09-29T11:00:36.300+0000] {dbt_operator.py:130} INFO - 11:00:36 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_049;
+[2026-09-29T11:00:36.300+0000] {dbt_operator.py:130} INFO - 11:00:36 | Thread 2: OK created sql view model staging.stg_payment_events_v049 [SUCCESS in 0.84s]
+[2026-09-29T11:00:37.000+0000] {dbt_operator.py:130} INFO - 11:00:37 | Thread 3: START sql view model staging.stg_payment_events_v050 [RUN]
+[2026-09-29T11:00:37.000+0000] {dbt_operator.py:130} INFO - 11:00:37 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_050;
+[2026-09-29T11:00:37.000+0000] {dbt_operator.py:130} INFO - 11:00:37 | Thread 3: OK created sql view model staging.stg_payment_events_v050 [SUCCESS in 0.84s]
+[2026-09-29T11:00:37.700+0000] {dbt_operator.py:130} INFO - 11:00:37 | Thread 4: START sql view model staging.stg_payment_events_v051 [RUN]
+[2026-09-29T11:00:37.700+0000] {dbt_operator.py:130} INFO - 11:00:37 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_051;
+[2026-09-29T11:00:37.700+0000] {dbt_operator.py:130} INFO - 11:00:37 | Thread 4: OK created sql view model staging.stg_payment_events_v051 [SUCCESS in 0.84s]
+[2026-09-29T11:00:38.400+0000] {dbt_operator.py:130} INFO - 11:00:38 | Thread 5: START sql view model staging.stg_payment_events_v052 [RUN]
+[2026-09-29T11:00:38.400+0000] {dbt_operator.py:130} INFO - 11:00:38 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_052;
+[2026-09-29T11:00:38.400+0000] {dbt_operator.py:130} INFO - 11:00:38 | Thread 5: OK created sql view model staging.stg_payment_events_v052 [SUCCESS in 0.84s]
+[2026-09-29T11:00:39.100+0000] {dbt_operator.py:130} INFO - 11:00:39 | Thread 6: START sql view model staging.stg_payment_events_v053 [RUN]
+[2026-09-29T11:00:39.100+0000] {dbt_operator.py:130} INFO - 11:00:39 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_053;
+[2026-09-29T11:00:39.100+0000] {dbt_operator.py:130} INFO - 11:00:39 | Thread 6: OK created sql view model staging.stg_payment_events_v053 [SUCCESS in 0.84s]
+[2026-09-29T11:00:39.800+0000] {dbt_operator.py:130} INFO - 11:00:39 | Thread 7: START sql view model staging.stg_payment_events_v054 [RUN]
+[2026-09-29T11:00:39.800+0000] {dbt_operator.py:130} INFO - 11:00:39 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_054;
+[2026-09-29T11:00:39.800+0000] {dbt_operator.py:130} INFO - 11:00:39 | Thread 7: OK created sql view model staging.stg_payment_events_v054 [SUCCESS in 0.84s]
+[2026-09-29T11:00:40.500+0000] {dbt_operator.py:130} INFO - 11:00:40 | Thread 8: START sql view model staging.stg_payment_events_v055 [RUN]
+[2026-09-29T11:00:40.500+0000] {dbt_operator.py:130} INFO - 11:00:40 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_055;
+[2026-09-29T11:00:40.500+0000] {dbt_operator.py:130} INFO - 11:00:40 | Thread 8: OK created sql view model staging.stg_payment_events_v055 [SUCCESS in 0.84s]
+[2026-09-29T11:00:41.200+0000] {dbt_operator.py:130} INFO - 11:00:41 | Thread 1: START sql view model staging.stg_payment_events_v056 [RUN]
+[2026-09-29T11:00:41.200+0000] {dbt_operator.py:130} INFO - 11:00:41 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_056;
+[2026-09-29T11:00:41.200+0000] {dbt_operator.py:130} INFO - 11:00:41 | Thread 1: OK created sql view model staging.stg_payment_events_v056 [SUCCESS in 0.84s]
+[2026-09-29T11:00:41.900+0000] {dbt_operator.py:130} INFO - 11:00:41 | Thread 2: START sql view model staging.stg_payment_events_v057 [RUN]
+[2026-09-29T11:00:41.900+0000] {dbt_operator.py:130} INFO - 11:00:41 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_057;
+[2026-09-29T11:00:41.900+0000] {dbt_operator.py:130} INFO - 11:00:41 | Thread 2: OK created sql view model staging.stg_payment_events_v057 [SUCCESS in 0.84s]
+[2026-09-29T11:00:42.600+0000] {dbt_operator.py:130} INFO - 11:00:42 | Thread 3: START sql view model staging.stg_payment_events_v058 [RUN]
+[2026-09-29T11:00:42.600+0000] {dbt_operator.py:130} INFO - 11:00:42 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_058;
+[2026-09-29T11:00:42.600+0000] {dbt_operator.py:130} INFO - 11:00:42 | Thread 3: OK created sql view model staging.stg_payment_events_v058 [SUCCESS in 0.84s]
+[2026-09-29T11:00:43.300+0000] {dbt_operator.py:130} INFO - 11:00:43 | Thread 4: START sql view model staging.stg_payment_events_v059 [RUN]
+[2026-09-29T11:00:43.300+0000] {dbt_operator.py:130} INFO - 11:00:43 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_059;
+[2026-09-29T11:00:43.300+0000] {dbt_operator.py:130} INFO - 11:00:43 | Thread 4: OK created sql view model staging.stg_payment_events_v059 [SUCCESS in 0.84s]
+[2026-09-29T11:00:44.000+0000] {dbt_operator.py:130} INFO - 11:00:44 | Thread 5: START sql view model staging.stg_payment_events_v060 [RUN]
+[2026-09-29T11:00:44.000+0000] {dbt_operator.py:130} INFO - 11:00:44 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_060;
+[2026-09-29T11:00:44.000+0000] {dbt_operator.py:130} INFO - 11:00:44 | Thread 5: OK created sql view model staging.stg_payment_events_v060 [SUCCESS in 0.84s]
+[2026-09-29T11:00:44.700+0000] {dbt_operator.py:130} INFO - 11:00:44 | Thread 6: START sql view model staging.stg_payment_events_v061 [RUN]
+[2026-09-29T11:00:44.700+0000] {dbt_operator.py:130} INFO - 11:00:44 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_061;
+[2026-09-29T11:00:44.700+0000] {dbt_operator.py:130} INFO - 11:00:44 | Thread 6: OK created sql view model staging.stg_payment_events_v061 [SUCCESS in 0.84s]
+[2026-09-29T11:00:45.400+0000] {dbt_operator.py:130} INFO - 11:00:45 | Thread 7: START sql view model staging.stg_payment_events_v062 [RUN]
+[2026-09-29T11:00:45.400+0000] {dbt_operator.py:130} INFO - 11:00:45 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_062;
+[2026-09-29T11:00:45.400+0000] {dbt_operator.py:130} INFO - 11:00:45 | Thread 7: OK created sql view model staging.stg_payment_events_v062 [SUCCESS in 0.84s]
+[2026-09-29T11:00:46.100+0000] {dbt_operator.py:130} INFO - 11:00:46 | Thread 8: START sql view model staging.stg_payment_events_v063 [RUN]
+[2026-09-29T11:00:46.100+0000] {dbt_operator.py:130} INFO - 11:00:46 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_063;
+[2026-09-29T11:00:46.100+0000] {dbt_operator.py:130} INFO - 11:00:46 | Thread 8: OK created sql view model staging.stg_payment_events_v063 [SUCCESS in 0.84s]
+[2026-09-29T11:00:46.800+0000] {dbt_operator.py:130} INFO - 11:00:46 | Thread 1: START sql view model staging.stg_payment_events_v064 [RUN]
+[2026-09-29T11:00:46.800+0000] {dbt_operator.py:130} INFO - 11:00:46 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_064;
+[2026-09-29T11:00:46.800+0000] {dbt_operator.py:130} INFO - 11:00:46 | Thread 1: OK created sql view model staging.stg_payment_events_v064 [SUCCESS in 0.84s]
+[2026-09-29T11:00:47.500+0000] {dbt_operator.py:130} INFO - 11:00:47 | Thread 2: START sql view model staging.stg_payment_events_v065 [RUN]
+[2026-09-29T11:00:47.500+0000] {dbt_operator.py:130} INFO - 11:00:47 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_065;
+[2026-09-29T11:00:47.500+0000] {dbt_operator.py:130} INFO - 11:00:47 | Thread 2: OK created sql view model staging.stg_payment_events_v065 [SUCCESS in 0.84s]
+[2026-09-29T11:00:48.200+0000] {dbt_operator.py:130} INFO - 11:00:48 | Thread 3: START sql view model staging.stg_payment_events_v066 [RUN]
+[2026-09-29T11:00:48.200+0000] {dbt_operator.py:130} INFO - 11:00:48 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_066;
+[2026-09-29T11:00:48.200+0000] {dbt_operator.py:130} INFO - 11:00:48 | Thread 3: OK created sql view model staging.stg_payment_events_v066 [SUCCESS in 0.84s]
+[2026-09-29T11:00:48.900+0000] {dbt_operator.py:130} INFO - 11:00:48 | Thread 4: START sql view model staging.stg_payment_events_v067 [RUN]
+[2026-09-29T11:00:48.900+0000] {dbt_operator.py:130} INFO - 11:00:48 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_067;
+[2026-09-29T11:00:48.900+0000] {dbt_operator.py:130} INFO - 11:00:48 | Thread 4: OK created sql view model staging.stg_payment_events_v067 [SUCCESS in 0.84s]
+[2026-09-29T11:00:49.600+0000] {dbt_operator.py:130} INFO - 11:00:49 | Thread 5: START sql view model staging.stg_payment_events_v068 [RUN]
+[2026-09-29T11:00:49.600+0000] {dbt_operator.py:130} INFO - 11:00:49 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_068;
+[2026-09-29T11:00:49.600+0000] {dbt_operator.py:130} INFO - 11:00:49 | Thread 5: OK created sql view model staging.stg_payment_events_v068 [SUCCESS in 0.84s]
+[2026-09-29T11:00:50.300+0000] {dbt_operator.py:130} INFO - 11:00:50 | Thread 6: START sql view model staging.stg_payment_events_v069 [RUN]
+[2026-09-29T11:00:50.300+0000] {dbt_operator.py:130} INFO - 11:00:50 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_069;
+[2026-09-29T11:00:50.300+0000] {dbt_operator.py:130} INFO - 11:00:50 | Thread 6: OK created sql view model staging.stg_payment_events_v069 [SUCCESS in 0.84s]
+[2026-09-29T11:00:51.000+0000] {dbt_operator.py:130} INFO - 11:00:51 | Thread 7: START sql view model staging.stg_payment_events_v070 [RUN]
+[2026-09-29T11:00:51.000+0000] {dbt_operator.py:130} INFO - 11:00:51 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_070;
+[2026-09-29T11:00:51.000+0000] {dbt_operator.py:130} INFO - 11:00:51 | Thread 7: OK created sql view model staging.stg_payment_events_v070 [SUCCESS in 0.84s]
+[2026-09-29T11:00:51.700+0000] {dbt_operator.py:130} INFO - 11:00:51 | Thread 8: START sql view model staging.stg_payment_events_v071 [RUN]
+[2026-09-29T11:00:51.700+0000] {dbt_operator.py:130} INFO - 11:00:51 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_071;
+[2026-09-29T11:00:51.700+0000] {dbt_operator.py:130} INFO - 11:00:51 | Thread 8: OK created sql view model staging.stg_payment_events_v071 [SUCCESS in 0.84s]
+[2026-09-29T11:00:52.400+0000] {dbt_operator.py:130} INFO - 11:00:52 | Thread 1: START sql view model staging.stg_payment_events_v072 [RUN]
+[2026-09-29T11:00:52.400+0000] {dbt_operator.py:130} INFO - 11:00:52 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_072;
+[2026-09-29T11:00:52.400+0000] {dbt_operator.py:130} INFO - 11:00:52 | Thread 1: OK created sql view model staging.stg_payment_events_v072 [SUCCESS in 0.84s]
+[2026-09-29T11:00:53.100+0000] {dbt_operator.py:130} INFO - 11:00:53 | Thread 2: START sql view model staging.stg_payment_events_v073 [RUN]
+[2026-09-29T11:00:53.100+0000] {dbt_operator.py:130} INFO - 11:00:53 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_073;
+[2026-09-29T11:00:53.100+0000] {dbt_operator.py:130} INFO - 11:00:53 | Thread 2: OK created sql view model staging.stg_payment_events_v073 [SUCCESS in 0.84s]
+[2026-09-29T11:00:53.800+0000] {dbt_operator.py:130} INFO - 11:00:53 | Thread 3: START sql view model staging.stg_payment_events_v074 [RUN]
+[2026-09-29T11:00:53.800+0000] {dbt_operator.py:130} INFO - 11:00:53 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_074;
+[2026-09-29T11:00:53.800+0000] {dbt_operator.py:130} INFO - 11:00:53 | Thread 3: OK created sql view model staging.stg_payment_events_v074 [SUCCESS in 0.84s]
+[2026-09-29T11:00:54.500+0000] {dbt_operator.py:130} INFO - 11:00:54 | Thread 4: START sql view model staging.stg_payment_events_v075 [RUN]
+[2026-09-29T11:00:54.500+0000] {dbt_operator.py:130} INFO - 11:00:54 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_075;
+[2026-09-29T11:00:54.500+0000] {dbt_operator.py:130} INFO - 11:00:54 | Thread 4: OK created sql view model staging.stg_payment_events_v075 [SUCCESS in 0.84s]
+[2026-09-29T11:00:55.200+0000] {dbt_operator.py:130} INFO - 11:00:55 | Thread 5: START sql view model staging.stg_payment_events_v076 [RUN]
+[2026-09-29T11:00:55.200+0000] {dbt_operator.py:130} INFO - 11:00:55 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_076;
+[2026-09-29T11:00:55.200+0000] {dbt_operator.py:130} INFO - 11:00:55 | Thread 5: OK created sql view model staging.stg_payment_events_v076 [SUCCESS in 0.84s]
+[2026-09-29T11:00:55.900+0000] {dbt_operator.py:130} INFO - 11:00:55 | Thread 6: START sql view model staging.stg_payment_events_v077 [RUN]
+[2026-09-29T11:00:55.900+0000] {dbt_operator.py:130} INFO - 11:00:55 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_077;
+[2026-09-29T11:00:55.900+0000] {dbt_operator.py:130} INFO - 11:00:55 | Thread 6: OK created sql view model staging.stg_payment_events_v077 [SUCCESS in 0.84s]
+[2026-09-29T11:00:56.600+0000] {dbt_operator.py:130} INFO - 11:00:56 | Thread 7: START sql view model staging.stg_payment_events_v078 [RUN]
+[2026-09-29T11:00:56.600+0000] {dbt_operator.py:130} INFO - 11:00:56 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_078;
+[2026-09-29T11:00:56.600+0000] {dbt_operator.py:130} INFO - 11:00:56 | Thread 7: OK created sql view model staging.stg_payment_events_v078 [SUCCESS in 0.84s]
+[2026-09-29T11:00:57.300+0000] {dbt_operator.py:130} INFO - 11:00:57 | Thread 8: START sql view model staging.stg_payment_events_v079 [RUN]
+[2026-09-29T11:00:57.300+0000] {dbt_operator.py:130} INFO - 11:00:57 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_079;
+[2026-09-29T11:00:57.300+0000] {dbt_operator.py:130} INFO - 11:00:57 | Thread 8: OK created sql view model staging.stg_payment_events_v079 [SUCCESS in 0.84s]
+[2026-09-29T11:00:58.000+0000] {dbt_operator.py:130} INFO - 11:00:58 | Thread 1: START sql view model staging.stg_payment_events_v080 [RUN]
+[2026-09-29T11:00:58.000+0000] {dbt_operator.py:130} INFO - 11:00:58 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_080;
+[2026-09-29T11:00:58.000+0000] {dbt_operator.py:130} INFO - 11:00:58 | Thread 1: OK created sql view model staging.stg_payment_events_v080 [SUCCESS in 0.84s]
+[2026-09-29T11:00:58.700+0000] {dbt_operator.py:130} INFO - 11:00:58 | Thread 2: START sql view model staging.stg_payment_events_v081 [RUN]
+[2026-09-29T11:00:58.700+0000] {dbt_operator.py:130} INFO - 11:00:58 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_081;
+[2026-09-29T11:00:58.700+0000] {dbt_operator.py:130} INFO - 11:00:58 | Thread 2: OK created sql view model staging.stg_payment_events_v081 [SUCCESS in 0.84s]
+[2026-09-29T11:00:59.400+0000] {dbt_operator.py:130} INFO - 11:00:59 | Thread 3: START sql view model staging.stg_payment_events_v082 [RUN]
+[2026-09-29T11:00:59.400+0000] {dbt_operator.py:130} INFO - 11:00:59 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_082;
+[2026-09-29T11:00:59.400+0000] {dbt_operator.py:130} INFO - 11:00:59 | Thread 3: OK created sql view model staging.stg_payment_events_v082 [SUCCESS in 0.84s]
+[2026-09-29T11:01:00.100+0000] {dbt_operator.py:130} INFO - 11:01:00 | Thread 4: START sql view model staging.stg_payment_events_v083 [RUN]
+[2026-09-29T11:01:00.100+0000] {dbt_operator.py:130} INFO - 11:01:00 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_083;
+[2026-09-29T11:01:00.100+0000] {dbt_operator.py:130} INFO - 11:01:00 | Thread 4: OK created sql view model staging.stg_payment_events_v083 [SUCCESS in 0.84s]
+[2026-09-29T11:01:00.800+0000] {dbt_operator.py:130} INFO - 11:01:00 | Thread 5: START sql view model staging.stg_payment_events_v084 [RUN]
+[2026-09-29T11:01:00.800+0000] {dbt_operator.py:130} INFO - 11:01:00 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_084;
+[2026-09-29T11:01:00.800+0000] {dbt_operator.py:130} INFO - 11:01:00 | Thread 5: OK created sql view model staging.stg_payment_events_v084 [SUCCESS in 0.84s]
+[2026-09-29T11:01:01.500+0000] {dbt_operator.py:130} INFO - 11:01:01 | Thread 6: START sql view model staging.stg_payment_events_v085 [RUN]
+[2026-09-29T11:01:01.500+0000] {dbt_operator.py:130} INFO - 11:01:01 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_085;
+[2026-09-29T11:01:01.500+0000] {dbt_operator.py:130} INFO - 11:01:01 | Thread 6: OK created sql view model staging.stg_payment_events_v085 [SUCCESS in 0.84s]
+[2026-09-29T11:01:02.200+0000] {dbt_operator.py:130} INFO - 11:01:02 | Thread 7: START sql view model staging.stg_payment_events_v086 [RUN]
+[2026-09-29T11:01:02.200+0000] {dbt_operator.py:130} INFO - 11:01:02 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_086;
+[2026-09-29T11:01:02.200+0000] {dbt_operator.py:130} INFO - 11:01:02 | Thread 7: OK created sql view model staging.stg_payment_events_v086 [SUCCESS in 0.84s]
+[2026-09-29T11:01:02.900+0000] {dbt_operator.py:130} INFO - 11:01:02 | Thread 8: START sql view model staging.stg_payment_events_v087 [RUN]
+[2026-09-29T11:01:02.900+0000] {dbt_operator.py:130} INFO - 11:01:02 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_087;
+[2026-09-29T11:01:02.900+0000] {dbt_operator.py:130} INFO - 11:01:02 | Thread 8: OK created sql view model staging.stg_payment_events_v087 [SUCCESS in 0.84s]
+[2026-09-29T11:01:03.600+0000] {dbt_operator.py:130} INFO - 11:01:03 | Thread 1: START sql view model staging.stg_payment_events_v088 [RUN]
+[2026-09-29T11:01:03.600+0000] {dbt_operator.py:130} INFO - 11:01:03 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_088;
+[2026-09-29T11:01:03.600+0000] {dbt_operator.py:130} INFO - 11:01:03 | Thread 1: OK created sql view model staging.stg_payment_events_v088 [SUCCESS in 0.84s]
+[2026-09-29T11:01:04.300+0000] {dbt_operator.py:130} INFO - 11:01:04 | Thread 2: START sql view model staging.stg_payment_events_v089 [RUN]
+[2026-09-29T11:01:04.300+0000] {dbt_operator.py:130} INFO - 11:01:04 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_089;
+[2026-09-29T11:01:04.300+0000] {dbt_operator.py:130} INFO - 11:01:04 | Thread 2: OK created sql view model staging.stg_payment_events_v089 [SUCCESS in 0.84s]
+[2026-09-29T11:01:05.000+0000] {dbt_operator.py:130} INFO - 11:01:05 | Thread 3: START sql view model staging.stg_payment_events_v090 [RUN]
+[2026-09-29T11:01:05.000+0000] {dbt_operator.py:130} INFO - 11:01:05 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_090;
+[2026-09-29T11:01:05.000+0000] {dbt_operator.py:130} INFO - 11:01:05 | Thread 3: OK created sql view model staging.stg_payment_events_v090 [SUCCESS in 0.84s]
+[2026-09-29T11:01:05.700+0000] {dbt_operator.py:130} INFO - 11:01:05 | Thread 4: START sql view model staging.stg_payment_events_v091 [RUN]
+[2026-09-29T11:01:05.700+0000] {dbt_operator.py:130} INFO - 11:01:05 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_091;
+[2026-09-29T11:01:05.700+0000] {dbt_operator.py:130} INFO - 11:01:05 | Thread 4: OK created sql view model staging.stg_payment_events_v091 [SUCCESS in 0.84s]
+[2026-09-29T11:01:06.400+0000] {dbt_operator.py:130} INFO - 11:01:06 | Thread 5: START sql view model staging.stg_payment_events_v092 [RUN]
+[2026-09-29T11:01:06.400+0000] {dbt_operator.py:130} INFO - 11:01:06 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_092;
+[2026-09-29T11:01:06.400+0000] {dbt_operator.py:130} INFO - 11:01:06 | Thread 5: OK created sql view model staging.stg_payment_events_v092 [SUCCESS in 0.84s]
+[2026-09-29T11:01:07.100+0000] {dbt_operator.py:130} INFO - 11:01:07 | Thread 6: START sql view model staging.stg_payment_events_v093 [RUN]
+[2026-09-29T11:01:07.100+0000] {dbt_operator.py:130} INFO - 11:01:07 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_093;
+[2026-09-29T11:01:07.100+0000] {dbt_operator.py:130} INFO - 11:01:07 | Thread 6: OK created sql view model staging.stg_payment_events_v093 [SUCCESS in 0.84s]
+[2026-09-29T11:01:07.800+0000] {dbt_operator.py:130} INFO - 11:01:07 | Thread 7: START sql view model staging.stg_payment_events_v094 [RUN]
+[2026-09-29T11:01:07.800+0000] {dbt_operator.py:130} INFO - 11:01:07 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_094;
+[2026-09-29T11:01:07.800+0000] {dbt_operator.py:130} INFO - 11:01:07 | Thread 7: OK created sql view model staging.stg_payment_events_v094 [SUCCESS in 0.84s]
+[2026-09-29T11:01:08.500+0000] {dbt_operator.py:130} INFO - 11:01:08 | Thread 8: START sql view model staging.stg_payment_events_v095 [RUN]
+[2026-09-29T11:01:08.500+0000] {dbt_operator.py:130} INFO - 11:01:08 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_095;
+[2026-09-29T11:01:08.500+0000] {dbt_operator.py:130} INFO - 11:01:08 | Thread 8: OK created sql view model staging.stg_payment_events_v095 [SUCCESS in 0.84s]
+[2026-09-29T11:01:09.200+0000] {dbt_operator.py:130} INFO - 11:01:09 | Thread 1: START sql view model staging.stg_payment_events_v096 [RUN]
+[2026-09-29T11:01:09.200+0000] {dbt_operator.py:130} INFO - 11:01:09 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_096;
+[2026-09-29T11:01:09.200+0000] {dbt_operator.py:130} INFO - 11:01:09 | Thread 1: OK created sql view model staging.stg_payment_events_v096 [SUCCESS in 0.84s]
+[2026-09-29T11:01:09.900+0000] {dbt_operator.py:130} INFO - 11:01:09 | Thread 2: START sql view model staging.stg_payment_events_v097 [RUN]
+[2026-09-29T11:01:09.900+0000] {dbt_operator.py:130} INFO - 11:01:09 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_097;
+[2026-09-29T11:01:09.900+0000] {dbt_operator.py:130} INFO - 11:01:09 | Thread 2: OK created sql view model staging.stg_payment_events_v097 [SUCCESS in 0.84s]
+[2026-09-29T11:01:10.600+0000] {dbt_operator.py:130} INFO - 11:01:10 | Thread 3: START sql view model staging.stg_payment_events_v098 [RUN]
+[2026-09-29T11:01:10.600+0000] {dbt_operator.py:130} INFO - 11:01:10 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_098;
+[2026-09-29T11:01:10.600+0000] {dbt_operator.py:130} INFO - 11:01:10 | Thread 3: OK created sql view model staging.stg_payment_events_v098 [SUCCESS in 0.84s]
+[2026-09-29T11:01:11.300+0000] {dbt_operator.py:130} INFO - 11:01:11 | Thread 4: START sql view model staging.stg_payment_events_v099 [RUN]
+[2026-09-29T11:01:11.300+0000] {dbt_operator.py:130} INFO - 11:01:11 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_099;
+[2026-09-29T11:01:11.300+0000] {dbt_operator.py:130} INFO - 11:01:11 | Thread 4: OK created sql view model staging.stg_payment_events_v099 [SUCCESS in 0.84s]
+[2026-09-29T11:01:12.000+0000] {dbt_operator.py:130} INFO - 11:01:12 | Thread 5: START sql view model staging.stg_payment_events_v100 [RUN]
+[2026-09-29T11:01:12.000+0000] {dbt_operator.py:130} INFO - 11:01:12 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_100;
+[2026-09-29T11:01:12.000+0000] {dbt_operator.py:130} INFO - 11:01:12 | Thread 5: OK created sql view model staging.stg_payment_events_v100 [SUCCESS in 0.84s]
+[2026-09-29T11:01:12.700+0000] {dbt_operator.py:130} INFO - 11:01:12 | Thread 6: START sql view model staging.stg_payment_events_v101 [RUN]
+[2026-09-29T11:01:12.700+0000] {dbt_operator.py:130} INFO - 11:01:12 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_101;
+[2026-09-29T11:01:12.700+0000] {dbt_operator.py:130} INFO - 11:01:12 | Thread 6: OK created sql view model staging.stg_payment_events_v101 [SUCCESS in 0.84s]
+[2026-09-29T11:01:13.400+0000] {dbt_operator.py:130} INFO - 11:01:13 | Thread 7: START sql view model staging.stg_payment_events_v102 [RUN]
+[2026-09-29T11:01:13.400+0000] {dbt_operator.py:130} INFO - 11:01:13 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_102;
+[2026-09-29T11:01:13.400+0000] {dbt_operator.py:130} INFO - 11:01:13 | Thread 7: OK created sql view model staging.stg_payment_events_v102 [SUCCESS in 0.84s]
+[2026-09-29T11:01:14.100+0000] {dbt_operator.py:130} INFO - 11:01:14 | Thread 8: START sql view model staging.stg_payment_events_v103 [RUN]
+[2026-09-29T11:01:14.100+0000] {dbt_operator.py:130} INFO - 11:01:14 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_103;
+[2026-09-29T11:01:14.100+0000] {dbt_operator.py:130} INFO - 11:01:14 | Thread 8: OK created sql view model staging.stg_payment_events_v103 [SUCCESS in 0.84s]
+[2026-09-29T11:01:14.800+0000] {dbt_operator.py:130} INFO - 11:01:14 | Thread 1: START sql view model staging.stg_payment_events_v104 [RUN]
+[2026-09-29T11:01:14.800+0000] {dbt_operator.py:130} INFO - 11:01:14 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_104;
+[2026-09-29T11:01:14.800+0000] {dbt_operator.py:130} INFO - 11:01:14 | Thread 1: OK created sql view model staging.stg_payment_events_v104 [SUCCESS in 0.84s]
+[2026-09-29T11:01:15.500+0000] {dbt_operator.py:130} INFO - 11:01:15 | Thread 2: START sql view model staging.stg_payment_events_v105 [RUN]
+[2026-09-29T11:01:15.500+0000] {dbt_operator.py:130} INFO - 11:01:15 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_105;
+[2026-09-29T11:01:15.500+0000] {dbt_operator.py:130} INFO - 11:01:15 | Thread 2: OK created sql view model staging.stg_payment_events_v105 [SUCCESS in 0.84s]
+[2026-09-29T11:01:16.200+0000] {dbt_operator.py:130} INFO - 11:01:16 | Thread 3: START sql view model staging.stg_payment_events_v106 [RUN]
+[2026-09-29T11:01:16.200+0000] {dbt_operator.py:130} INFO - 11:01:16 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_106;
+[2026-09-29T11:01:16.200+0000] {dbt_operator.py:130} INFO - 11:01:16 | Thread 3: OK created sql view model staging.stg_payment_events_v106 [SUCCESS in 0.84s]
+[2026-09-29T11:01:16.900+0000] {dbt_operator.py:130} INFO - 11:01:16 | Thread 4: START sql view model staging.stg_payment_events_v107 [RUN]
+[2026-09-29T11:01:16.900+0000] {dbt_operator.py:130} INFO - 11:01:16 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_107;
+[2026-09-29T11:01:16.900+0000] {dbt_operator.py:130} INFO - 11:01:16 | Thread 4: OK created sql view model staging.stg_payment_events_v107 [SUCCESS in 0.84s]
+[2026-09-29T11:01:17.600+0000] {dbt_operator.py:130} INFO - 11:01:17 | Thread 5: START sql view model staging.stg_payment_events_v108 [RUN]
+[2026-09-29T11:01:17.600+0000] {dbt_operator.py:130} INFO - 11:01:17 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_108;
+[2026-09-29T11:01:17.600+0000] {dbt_operator.py:130} INFO - 11:01:17 | Thread 5: OK created sql view model staging.stg_payment_events_v108 [SUCCESS in 0.84s]
+[2026-09-29T11:01:18.300+0000] {dbt_operator.py:130} INFO - 11:01:18 | Thread 6: START sql view model staging.stg_payment_events_v109 [RUN]
+[2026-09-29T11:01:18.300+0000] {dbt_operator.py:130} INFO - 11:01:18 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_109;
+[2026-09-29T11:01:18.300+0000] {dbt_operator.py:130} INFO - 11:01:18 | Thread 6: OK created sql view model staging.stg_payment_events_v109 [SUCCESS in 0.84s]
+[2026-09-29T11:01:19.000+0000] {dbt_operator.py:130} INFO - 11:01:19 | Thread 7: START sql view model staging.stg_payment_events_v110 [RUN]
+[2026-09-29T11:01:19.000+0000] {dbt_operator.py:130} INFO - 11:01:19 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_110;
+[2026-09-29T11:01:19.000+0000] {dbt_operator.py:130} INFO - 11:01:19 | Thread 7: OK created sql view model staging.stg_payment_events_v110 [SUCCESS in 0.84s]
+[2026-09-29T11:01:19.700+0000] {dbt_operator.py:130} INFO - 11:01:19 | Thread 8: START sql view model staging.stg_payment_events_v111 [RUN]
+[2026-09-29T11:01:19.700+0000] {dbt_operator.py:130} INFO - 11:01:19 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_111;
+[2026-09-29T11:01:19.700+0000] {dbt_operator.py:130} INFO - 11:01:19 | Thread 8: OK created sql view model staging.stg_payment_events_v111 [SUCCESS in 0.84s]
+[2026-09-29T11:01:20.400+0000] {dbt_operator.py:130} INFO - 11:01:20 | Thread 1: START sql view model staging.stg_payment_events_v112 [RUN]
+[2026-09-29T11:01:20.400+0000] {dbt_operator.py:130} INFO - 11:01:20 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_112;
+[2026-09-29T11:01:20.400+0000] {dbt_operator.py:130} INFO - 11:01:20 | Thread 1: OK created sql view model staging.stg_payment_events_v112 [SUCCESS in 0.84s]
+[2026-09-29T11:01:21.100+0000] {dbt_operator.py:130} INFO - 11:01:21 | Thread 2: START sql view model staging.stg_payment_events_v113 [RUN]
+[2026-09-29T11:01:21.100+0000] {dbt_operator.py:130} INFO - 11:01:21 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_113;
+[2026-09-29T11:01:21.100+0000] {dbt_operator.py:130} INFO - 11:01:21 | Thread 2: OK created sql view model staging.stg_payment_events_v113 [SUCCESS in 0.84s]
+[2026-09-29T11:01:21.800+0000] {dbt_operator.py:130} INFO - 11:01:21 | Thread 3: START sql view model staging.stg_payment_events_v114 [RUN]
+[2026-09-29T11:01:21.800+0000] {dbt_operator.py:130} INFO - 11:01:21 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_114;
+[2026-09-29T11:01:21.800+0000] {dbt_operator.py:130} INFO - 11:01:21 | Thread 3: OK created sql view model staging.stg_payment_events_v114 [SUCCESS in 0.84s]
+[2026-09-29T11:01:22.500+0000] {dbt_operator.py:130} INFO - 11:01:22 | Thread 4: START sql view model staging.stg_payment_events_v115 [RUN]
+[2026-09-29T11:01:22.500+0000] {dbt_operator.py:130} INFO - 11:01:22 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_115;
+[2026-09-29T11:01:22.500+0000] {dbt_operator.py:130} INFO - 11:01:22 | Thread 4: OK created sql view model staging.stg_payment_events_v115 [SUCCESS in 0.84s]
+[2026-09-29T11:01:23.200+0000] {dbt_operator.py:130} INFO - 11:01:23 | Thread 5: START sql view model staging.stg_payment_events_v116 [RUN]
+[2026-09-29T11:01:23.200+0000] {dbt_operator.py:130} INFO - 11:01:23 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_116;
+[2026-09-29T11:01:23.200+0000] {dbt_operator.py:130} INFO - 11:01:23 | Thread 5: OK created sql view model staging.stg_payment_events_v116 [SUCCESS in 0.84s]
+[2026-09-29T11:01:23.900+0000] {dbt_operator.py:130} INFO - 11:01:23 | Thread 6: START sql view model staging.stg_payment_events_v117 [RUN]
+[2026-09-29T11:01:23.900+0000] {dbt_operator.py:130} INFO - 11:01:23 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_117;
+[2026-09-29T11:01:23.900+0000] {dbt_operator.py:130} INFO - 11:01:23 | Thread 6: OK created sql view model staging.stg_payment_events_v117 [SUCCESS in 0.84s]
+[2026-09-29T11:01:24.600+0000] {dbt_operator.py:130} INFO - 11:01:24 | Thread 7: START sql view model staging.stg_payment_events_v118 [RUN]
+[2026-09-29T11:01:24.600+0000] {dbt_operator.py:130} INFO - 11:01:24 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_118;
+[2026-09-29T11:01:24.600+0000] {dbt_operator.py:130} INFO - 11:01:24 | Thread 7: OK created sql view model staging.stg_payment_events_v118 [SUCCESS in 0.84s]
+[2026-09-29T11:01:25.300+0000] {dbt_operator.py:130} INFO - 11:01:25 | Thread 8: START sql view model staging.stg_payment_events_v119 [RUN]
+[2026-09-29T11:01:25.300+0000] {dbt_operator.py:130} INFO - 11:01:25 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_119;
+[2026-09-29T11:01:25.300+0000] {dbt_operator.py:130} INFO - 11:01:25 | Thread 8: OK created sql view model staging.stg_payment_events_v119 [SUCCESS in 0.84s]
+[2026-09-29T11:01:26.000+0000] {dbt_operator.py:130} INFO - 11:01:26 | Thread 1: START sql view model staging.stg_payment_events_v120 [RUN]
+[2026-09-29T11:01:26.000+0000] {dbt_operator.py:130} INFO - 11:01:26 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_120;
+[2026-09-29T11:01:26.000+0000] {dbt_operator.py:130} INFO - 11:01:26 | Thread 1: OK created sql view model staging.stg_payment_events_v120 [SUCCESS in 0.84s]
+[2026-09-29T11:01:26.700+0000] {dbt_operator.py:130} INFO - 11:01:26 | Thread 2: START sql view model staging.stg_payment_events_v121 [RUN]
+[2026-09-29T11:01:26.700+0000] {dbt_operator.py:130} INFO - 11:01:26 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_121;
+[2026-09-29T11:01:26.700+0000] {dbt_operator.py:130} INFO - 11:01:26 | Thread 2: OK created sql view model staging.stg_payment_events_v121 [SUCCESS in 0.84s]
+[2026-09-29T11:01:27.400+0000] {dbt_operator.py:130} INFO - 11:01:27 | Thread 3: START sql view model staging.stg_payment_events_v122 [RUN]
+[2026-09-29T11:01:27.400+0000] {dbt_operator.py:130} INFO - 11:01:27 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_122;
+[2026-09-29T11:01:27.400+0000] {dbt_operator.py:130} INFO - 11:01:27 | Thread 3: OK created sql view model staging.stg_payment_events_v122 [SUCCESS in 0.84s]
+[2026-09-29T11:01:28.100+0000] {dbt_operator.py:130} INFO - 11:01:28 | Thread 4: START sql view model staging.stg_payment_events_v123 [RUN]
+[2026-09-29T11:01:28.100+0000] {dbt_operator.py:130} INFO - 11:01:28 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_123;
+[2026-09-29T11:01:28.100+0000] {dbt_operator.py:130} INFO - 11:01:28 | Thread 4: OK created sql view model staging.stg_payment_events_v123 [SUCCESS in 0.84s]
+[2026-09-29T11:01:28.800+0000] {dbt_operator.py:130} INFO - 11:01:28 | Thread 5: START sql view model staging.stg_payment_events_v124 [RUN]
+[2026-09-29T11:01:28.800+0000] {dbt_operator.py:130} INFO - 11:01:28 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_124;
+[2026-09-29T11:01:28.800+0000] {dbt_operator.py:130} INFO - 11:01:28 | Thread 5: OK created sql view model staging.stg_payment_events_v124 [SUCCESS in 0.84s]
+[2026-09-29T11:01:29.500+0000] {dbt_operator.py:130} INFO - 11:01:29 | Thread 6: START sql view model staging.stg_payment_events_v125 [RUN]
+[2026-09-29T11:01:29.500+0000] {dbt_operator.py:130} INFO - 11:01:29 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_125;
+[2026-09-29T11:01:29.500+0000] {dbt_operator.py:130} INFO - 11:01:29 | Thread 6: OK created sql view model staging.stg_payment_events_v125 [SUCCESS in 0.84s]
+[2026-09-29T11:01:30.200+0000] {dbt_operator.py:130} INFO - 11:01:30 | Thread 7: START sql view model staging.stg_payment_events_v126 [RUN]
+[2026-09-29T11:01:30.200+0000] {dbt_operator.py:130} INFO - 11:01:30 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_126;
+[2026-09-29T11:01:30.200+0000] {dbt_operator.py:130} INFO - 11:01:30 | Thread 7: OK created sql view model staging.stg_payment_events_v126 [SUCCESS in 0.84s]
+[2026-09-29T11:01:30.900+0000] {dbt_operator.py:130} INFO - 11:01:30 | Thread 8: START sql view model staging.stg_payment_events_v127 [RUN]
+[2026-09-29T11:01:30.900+0000] {dbt_operator.py:130} INFO - 11:01:30 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_127;
+[2026-09-29T11:01:30.900+0000] {dbt_operator.py:130} INFO - 11:01:30 | Thread 8: OK created sql view model staging.stg_payment_events_v127 [SUCCESS in 0.84s]
+[2026-09-29T11:01:31.600+0000] {dbt_operator.py:130} INFO - 11:01:31 | Thread 1: START sql view model staging.stg_payment_events_v128 [RUN]
+[2026-09-29T11:01:31.600+0000] {dbt_operator.py:130} INFO - 11:01:31 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_128;
+[2026-09-29T11:01:31.600+0000] {dbt_operator.py:130} INFO - 11:01:31 | Thread 1: OK created sql view model staging.stg_payment_events_v128 [SUCCESS in 0.84s]
+[2026-09-29T11:01:32.300+0000] {dbt_operator.py:130} INFO - 11:01:32 | Thread 2: START sql view model staging.stg_payment_events_v129 [RUN]
+[2026-09-29T11:01:32.300+0000] {dbt_operator.py:130} INFO - 11:01:32 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_129;
+[2026-09-29T11:01:32.300+0000] {dbt_operator.py:130} INFO - 11:01:32 | Thread 2: OK created sql view model staging.stg_payment_events_v129 [SUCCESS in 0.84s]
+[2026-09-29T11:01:33.000+0000] {dbt_operator.py:130} INFO - 11:01:33 | Thread 3: START sql view model staging.stg_payment_events_v130 [RUN]
+[2026-09-29T11:01:33.000+0000] {dbt_operator.py:130} INFO - 11:01:33 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_130;
+[2026-09-29T11:01:33.000+0000] {dbt_operator.py:130} INFO - 11:01:33 | Thread 3: OK created sql view model staging.stg_payment_events_v130 [SUCCESS in 0.84s]
+[2026-09-29T11:01:33.700+0000] {dbt_operator.py:130} INFO - 11:01:33 | Thread 4: START sql view model staging.stg_payment_events_v131 [RUN]
+[2026-09-29T11:01:33.700+0000] {dbt_operator.py:130} INFO - 11:01:33 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_131;
+[2026-09-29T11:01:33.700+0000] {dbt_operator.py:130} INFO - 11:01:33 | Thread 4: OK created sql view model staging.stg_payment_events_v131 [SUCCESS in 0.84s]
+[2026-09-29T11:01:34.400+0000] {dbt_operator.py:130} INFO - 11:01:34 | Thread 5: START sql view model staging.stg_payment_events_v132 [RUN]
+[2026-09-29T11:01:34.400+0000] {dbt_operator.py:130} INFO - 11:01:34 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_132;
+[2026-09-29T11:01:34.400+0000] {dbt_operator.py:130} INFO - 11:01:34 | Thread 5: OK created sql view model staging.stg_payment_events_v132 [SUCCESS in 0.84s]
+[2026-09-29T11:01:35.100+0000] {dbt_operator.py:130} INFO - 11:01:35 | Thread 6: START sql view model staging.stg_payment_events_v133 [RUN]
+[2026-09-29T11:01:35.100+0000] {dbt_operator.py:130} INFO - 11:01:35 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_133;
+[2026-09-29T11:01:35.100+0000] {dbt_operator.py:130} INFO - 11:01:35 | Thread 6: OK created sql view model staging.stg_payment_events_v133 [SUCCESS in 0.84s]
+[2026-09-29T11:01:35.800+0000] {dbt_operator.py:130} INFO - 11:01:35 | Thread 7: START sql view model staging.stg_payment_events_v134 [RUN]
+[2026-09-29T11:01:35.800+0000] {dbt_operator.py:130} INFO - 11:01:35 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_134;
+[2026-09-29T11:01:35.800+0000] {dbt_operator.py:130} INFO - 11:01:35 | Thread 7: OK created sql view model staging.stg_payment_events_v134 [SUCCESS in 0.84s]
+[2026-09-29T11:01:36.500+0000] {dbt_operator.py:130} INFO - 11:01:36 | Thread 8: START sql view model staging.stg_payment_events_v135 [RUN]
+[2026-09-29T11:01:36.500+0000] {dbt_operator.py:130} INFO - 11:01:36 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_135;
+[2026-09-29T11:01:36.500+0000] {dbt_operator.py:130} INFO - 11:01:36 | Thread 8: OK created sql view model staging.stg_payment_events_v135 [SUCCESS in 0.84s]
+[2026-09-29T11:01:37.200+0000] {dbt_operator.py:130} INFO - 11:01:37 | Thread 1: START sql view model staging.stg_payment_events_v136 [RUN]
+[2026-09-29T11:01:37.200+0000] {dbt_operator.py:130} INFO - 11:01:37 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_136;
+[2026-09-29T11:01:37.200+0000] {dbt_operator.py:130} INFO - 11:01:37 | Thread 1: OK created sql view model staging.stg_payment_events_v136 [SUCCESS in 0.84s]
+[2026-09-29T11:01:37.900+0000] {dbt_operator.py:130} INFO - 11:01:37 | Thread 2: START sql view model staging.stg_payment_events_v137 [RUN]
+[2026-09-29T11:01:37.900+0000] {dbt_operator.py:130} INFO - 11:01:37 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_137;
+[2026-09-29T11:01:37.900+0000] {dbt_operator.py:130} INFO - 11:01:37 | Thread 2: OK created sql view model staging.stg_payment_events_v137 [SUCCESS in 0.84s]
+[2026-09-29T11:01:38.600+0000] {dbt_operator.py:130} INFO - 11:01:38 | Thread 3: START sql view model staging.stg_payment_events_v138 [RUN]
+[2026-09-29T11:01:38.600+0000] {dbt_operator.py:130} INFO - 11:01:38 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_138;
+[2026-09-29T11:01:38.600+0000] {dbt_operator.py:130} INFO - 11:01:38 | Thread 3: OK created sql view model staging.stg_payment_events_v138 [SUCCESS in 0.84s]
+[2026-09-29T11:01:39.300+0000] {dbt_operator.py:130} INFO - 11:01:39 | Thread 4: START sql view model staging.stg_payment_events_v139 [RUN]
+[2026-09-29T11:01:39.300+0000] {dbt_operator.py:130} INFO - 11:01:39 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_139;
+[2026-09-29T11:01:39.300+0000] {dbt_operator.py:130} INFO - 11:01:39 | Thread 4: OK created sql view model staging.stg_payment_events_v139 [SUCCESS in 0.84s]
+[2026-09-29T11:01:40.000+0000] {dbt_operator.py:130} INFO - 11:01:40 | Thread 5: START sql view model staging.stg_payment_events_v140 [RUN]
+[2026-09-29T11:01:40.000+0000] {dbt_operator.py:130} INFO - 11:01:40 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_140;
+[2026-09-29T11:01:40.000+0000] {dbt_operator.py:130} INFO - 11:01:40 | Thread 5: OK created sql view model staging.stg_payment_events_v140 [SUCCESS in 0.84s]
+[2026-09-29T11:01:40.700+0000] {dbt_operator.py:130} INFO - 11:01:40 | Thread 6: START sql view model staging.stg_payment_events_v141 [RUN]
+[2026-09-29T11:01:40.700+0000] {dbt_operator.py:130} INFO - 11:01:40 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_141;
+[2026-09-29T11:01:40.700+0000] {dbt_operator.py:130} INFO - 11:01:40 | Thread 6: OK created sql view model staging.stg_payment_events_v141 [SUCCESS in 0.84s]
+[2026-09-29T11:01:41.400+0000] {dbt_operator.py:130} INFO - 11:01:41 | Thread 7: START sql view model staging.stg_payment_events_v142 [RUN]
+[2026-09-29T11:01:41.400+0000] {dbt_operator.py:130} INFO - 11:01:41 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_142;
+[2026-09-29T11:01:41.400+0000] {dbt_operator.py:130} INFO - 11:01:41 | Thread 7: OK created sql view model staging.stg_payment_events_v142 [SUCCESS in 0.84s]
+[2026-09-29T11:01:42.100+0000] {dbt_operator.py:130} INFO - 11:01:42 | Thread 8: START sql view model staging.stg_payment_events_v143 [RUN]
+[2026-09-29T11:01:42.100+0000] {dbt_operator.py:130} INFO - 11:01:42 | Thread 8: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_143;
+[2026-09-29T11:01:42.100+0000] {dbt_operator.py:130} INFO - 11:01:42 | Thread 8: OK created sql view model staging.stg_payment_events_v143 [SUCCESS in 0.84s]
+[2026-09-29T11:01:42.800+0000] {dbt_operator.py:130} INFO - 11:01:42 | Thread 1: START sql view model staging.stg_payment_events_v144 [RUN]
+[2026-09-29T11:01:42.800+0000] {dbt_operator.py:130} INFO - 11:01:42 | Thread 1: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_144;
+[2026-09-29T11:01:42.800+0000] {dbt_operator.py:130} INFO - 11:01:42 | Thread 1: OK created sql view model staging.stg_payment_events_v144 [SUCCESS in 0.84s]
+[2026-09-29T11:01:43.500+0000] {dbt_operator.py:130} INFO - 11:01:43 | Thread 2: START sql view model staging.stg_payment_events_v145 [RUN]
+[2026-09-29T11:01:43.500+0000] {dbt_operator.py:130} INFO - 11:01:43 | Thread 2: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_145;
+[2026-09-29T11:01:43.500+0000] {dbt_operator.py:130} INFO - 11:01:43 | Thread 2: OK created sql view model staging.stg_payment_events_v145 [SUCCESS in 0.84s]
+[2026-09-29T11:01:44.200+0000] {dbt_operator.py:130} INFO - 11:01:44 | Thread 3: START sql view model staging.stg_payment_events_v146 [RUN]
+[2026-09-29T11:01:44.200+0000] {dbt_operator.py:130} INFO - 11:01:44 | Thread 3: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_146;
+[2026-09-29T11:01:44.200+0000] {dbt_operator.py:130} INFO - 11:01:44 | Thread 3: OK created sql view model staging.stg_payment_events_v146 [SUCCESS in 0.84s]
+[2026-09-29T11:01:44.900+0000] {dbt_operator.py:130} INFO - 11:01:44 | Thread 4: START sql view model staging.stg_payment_events_v147 [RUN]
+[2026-09-29T11:01:44.900+0000] {dbt_operator.py:130} INFO - 11:01:44 | Thread 4: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_147;
+[2026-09-29T11:01:44.900+0000] {dbt_operator.py:130} INFO - 11:01:44 | Thread 4: OK created sql view model staging.stg_payment_events_v147 [SUCCESS in 0.84s]
+[2026-09-29T11:01:45.600+0000] {dbt_operator.py:130} INFO - 11:01:45 | Thread 5: START sql view model staging.stg_payment_events_v148 [RUN]
+[2026-09-29T11:01:45.600+0000] {dbt_operator.py:130} INFO - 11:01:45 | Thread 5: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_148;
+[2026-09-29T11:01:45.600+0000] {dbt_operator.py:130} INFO - 11:01:45 | Thread 5: OK created sql view model staging.stg_payment_events_v148 [SUCCESS in 0.84s]
+[2026-09-29T11:01:46.300+0000] {dbt_operator.py:130} INFO - 11:01:46 | Thread 6: START sql view model staging.stg_payment_events_v149 [RUN]
+[2026-09-29T11:01:46.300+0000] {dbt_operator.py:130} INFO - 11:01:46 | Thread 6: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_149;
+[2026-09-29T11:01:46.300+0000] {dbt_operator.py:130} INFO - 11:01:46 | Thread 6: OK created sql view model staging.stg_payment_events_v149 [SUCCESS in 0.84s]
+[2026-09-29T11:01:47.000+0000] {dbt_operator.py:130} INFO - 11:01:47 | Thread 7: START sql view model staging.stg_payment_events_v150 [RUN]
+[2026-09-29T11:01:47.000+0000] {dbt_operator.py:130} INFO - 11:01:47 | Thread 7: SELECT payment_id, customer_id, amount_cents, currency, status FROM raw_payments.event_150;
+[2026-09-29T11:01:47.000+0000] {dbt_operator.py:130} INFO - 11:01:47 | Thread 7: OK created sql view model staging.stg_payment_events_v150 [SUCCESS in 0.84s]
+[2026-09-29T11:01:49.000+0000] {dbt_operator.py:130} INFO - 11:01:49 | Thread 3: START sql table model marts.fct_customer_churn_daily [RUN]
+[2026-09-29T11:01:49.000+0000] {dbt_operator.py:130} INFO - 11:01:49 | Thread 3: Compiling SQL query for marts.fct_customer_churn_daily...
+[2026-09-29T11:01:49.000+0000] {dbt_operator.py:130} ERROR - 11:01:49 | Thread 3: ERROR creating sql table model marts.fct_customer_churn_daily [ERROR in 2.89s]
+Database Error in model fct_customer_churn_daily (models/marts/finance/fct_customer_churn_daily.sql)
+  column "customer_account_id" does not exist in relation "stg_customers"
+  LINE 14:         c.customer_account_id,
+                   ^
+  HINT: Perhaps you meant to reference the column "stg_customers.account_id".
+  compiled code at target/compiled/analytics/models/marts/finance/fct_customer_churn_daily.sql
+
+[2026-09-29T11:01:49.000+0000] {dbt_operator.py:145} ERROR - Finished running 151 models: 150 succeeded, 1 failed
+[2026-09-29T11:01:49.000+0000] {taskinstance.py:1898} ERROR - AirflowException: dbt run failed with 1 error.
+[2026-09-29T11:01:49.000+0000] {taskinstance.py:1467} INFO - Invoking failure callback: send_alert_to_airdoctor
