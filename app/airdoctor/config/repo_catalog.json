@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schema.airdoctor.dev/v1/repo-catalog.json",
+  "version": "1.0",
+  "catalog_description": "Enterprise Data Platform Service & Git Repository Catalog",
+  "repositories": {
+    "analytics-dbt": {
+      "repo_name": "analytics-dbt",
+      "repo_url": "https://github.com/your-org/analytics-dbt",
+      "default_branch": "main",
+      "code_subpath": "models/",
+      "team_owner": "@analytics-engineering",
+      "slack_channel": "#data-platform-alerts",
+      "matching_dags": [
+        "finance_daily_marts",
+        "analytics_daily_etl",
+        "marketing_multi_touch_attribution"
+      ],
+      "framework": "dbt-core"
+    },
+    "financial-core-sql": {
+      "repo_name": "financial-core-sql",
+      "repo_url": "https://github.com/your-org/financial-core-sql",
+      "default_branch": "main",
+      "code_subpath": "queries/settlements/",
+      "team_owner": "@fintech-data-platform",
+      "slack_channel": "#data-platform-alerts",
+      "matching_dags": [
+        "financial_ledger_sync",
+        "stripe_billing_reconciliation"
+      ],
+      "framework": "custom-sql"
+    },
+    "data-lake-ingestion": {
+      "repo_name": "data-lake-ingestion",
+      "repo_url": "https://github.com/your-org/data-lake-ingestion",
+      "default_branch": "main",
+      "code_subpath": "dags/cross_cluster/",
+      "team_owner": "@data-infra",
+      "slack_channel": "#data-platform-alerts",
+      "matching_dags": [
+        "global_sales_reporting",
+        "eu_raw_ingestion_hourly"
+      ],
+      "framework": "airflow-native"
+    }
+  }
+}
